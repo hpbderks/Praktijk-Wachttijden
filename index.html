@@ -54,7 +54,8 @@
   .badge-geen_wachtlijst { background: #e3f6e8; color: #1d7a3e; }
   .badge-aanmeldstop { background: #fde8e8; color: #b42318; }
   .badge-onbekend { background: #f1f2f4; color: #6b7280; }
-  .badge-geen_wachttijd_concept { background: #eaf0fb; color: #2E5C8A; }
+  .badge-laat { background: #fff3e0; color: #c45000; }
+  .badge-geen_wachttijd_concept { background: #e3f6e8; color: #1d7a3e; }
   .twd-link { color: #2E5C8A; text-decoration: none; font-size: 12px; margin-left: 6px; white-space: nowrap; }
   .twd-link:hover { text-decoration: underline; }
   .twd-website { color: #2E5C8A; text-decoration: none; font-weight: 600; }
@@ -333,7 +334,14 @@
       wtCell.className = "twd-wt-cell";
 
       var span = document.createElement("span");
-      span.className = "twd-badge badge-" + r.status;
+      var intakeBadge = r.status;
+      if (r.status === "bekend") {
+        var sortVal = r.aanmeld_weken
+          ? parseFloat(String(r.aanmeld_weken).match(/[\d.,]+/)[0].replace(",","."))
+          : r.weken_sort;
+        if (sortVal !== null && sortVal !== undefined && sortVal >= 10) intakeBadge = "laat";
+      }
+      span.className = "twd-badge badge-" + intakeBadge;
       span.textContent = fmtIntake(r);
       if (r.wachttijd) span.setAttribute("data-tip", r.wachttijd);
       wtCell.appendChild(span);
