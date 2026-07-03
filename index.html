@@ -43,7 +43,7 @@
   .twd-badge[data-tip]:hover::after {
     content: attr(data-tip); position: absolute; left: 50%; bottom: 140%; transform: translateX(-50%);
     background: #1f2430; color: #fff; padding: 8px 10px; border-radius: 6px;
-    font-size: 11.5px; font-weight: 400; white-space: normal; width: 280px;
+    font-size: 11.5px; font-weight: 400; white-space: pre-wrap; width: 280px;
     line-height: 1.4; z-index: 20; box-shadow: 0 4px 12px rgba(0,0,0,.2);
   }
   .twd-badge[data-tip]:hover::before {
@@ -94,6 +94,40 @@
   .twd-modal-submit { background: #2E5C8A; color: #fff; border: none; border-radius: 7px; padding: 8px 18px; font-size: 13px; font-weight: 600; cursor: pointer; }
   .twd-modal-submit:hover { background: #244a6e; }
   .twd-modal-close { position: absolute; top: 14px; right: 16px; background: none; border: none; font-size: 20px; cursor: pointer; color: #9ca3af; line-height: 1; }
+  /* ── Mobiele weergave ── */
+  @media (max-width: 640px) {
+    body { padding: 10px; }
+    .twd-header { flex-direction: column; gap: 10px; }
+    .twd-refresh-hint { max-width: 100%; }
+    .twd-filters { gap: 8px; }
+    .twd-filters > div { width: 100%; }
+    .twd-filters input[type=text], .twd-filters select { width: 100%; min-width: unset; }
+    .twd-table-wrap { border: none; max-height: none; overflow: visible; }
+    table.twd-table, .twd-table thead, .twd-table tbody, .twd-table th, .twd-table td, .twd-table tr { display: block; }
+    .twd-table thead { display: none; }
+    .twd-table tr {
+      border: 1px solid #e2e5ea; border-radius: 10px; margin-bottom: 10px;
+      padding: 2px 0; background: #fff; box-shadow: 0 1px 4px rgba(0,0,0,.06);
+    }
+    .twd-table tr:hover td { background: transparent; }
+    .twd-table td {
+      border-bottom: 1px solid #f0f1f3; padding: 7px 12px;
+      display: flex; align-items: flex-start; gap: 8px; font-size: 13px;
+    }
+    .twd-table td:last-child { border-bottom: none; }
+    .twd-table td::before {
+      content: attr(data-label); min-width: 110px; font-size: 11px;
+      font-weight: 700; color: #9ca3af; text-transform: uppercase;
+      letter-spacing: .4px; padding-top: 1px; flex-shrink: 0;
+    }
+    .twd-table td[data-label="Praktijk"] {
+      background: #f6f8fc; border-radius: 10px 10px 0 0;
+      font-size: 14px; font-weight: 700; border-bottom: 1px solid #e2e5ea;
+    }
+    .twd-table td[data-label="Praktijk"]::before { display: none; }
+    .twd-wt-cell { flex-wrap: nowrap; }
+    .twd-modal { padding: 20px 16px 16px; }
+  }
 </style>
 
 <div class="twd-header">
@@ -276,6 +310,14 @@
       if (state.sortKey === "weken_sort") {
         function rank(r) {
           if (r.status === "geen_wachttijd_concept") return -1;
+          if (r.wachttijd_per_verzekeraar && Object.keys(r.wachttijd_per_verzekeraar).length > 0) {
+            var pvWks = [];
+            Object.keys(r.wachttijd_per_verzekeraar).forEach(function(vv) {
+              var m = String(r.wachttijd_per_verzekeraar[vv]).match(/(\d+)/);
+              if (m) pvWks.push(parseInt(m[1]));
+            });
+            return pvWks.length ? Math.min.apply(null, pvWks) : Infinity;
+          }
           if (r.aanmeld_weken) {
             var m2 = String(r.aanmeld_weken).match(/[\d.,]+/);
             return m2 ? parseFloat(m2[0].replace(",", ".")) : Infinity;
@@ -320,13 +362,13 @@
       var aNaam = document.createElement("a");
       var hrefNaam = r.website.indexOf("http") === 0 ? r.website : "https://" + r.website;
       aNaam.href = hrefNaam; aNaam.textContent = r.naam; aNaam.target = "_blank"; aNaam.rel = "noopener noreferrer"; aNaam.className = "twd-website";
-      tdNaam.appendChild(aNaam);
+      tdNaam.setAttribute("data-label", "Praktijk"); tdNaam.appendChild(aNaam);
       tr.appendChild(tdNaam);
 
       var tdLevel = document.createElement("td");
       var badgeLvl = document.createElement("span");
       badgeLvl.textContent = r.zorgintensiteit;
-      tdLevel.appendChild(badgeLvl);
+      tdLevel.setAttribute("data-label", "Zorgintensiteit"); tdLevel.appendChild(badgeLvl);
       tr.appendChild(tdLevel);
 
       var tdWt = document.createElement("td");
@@ -335,15 +377,37 @@
 
       var span = document.createElement("span");
       var intakeBadge = r.status;
+      var pvInfo = null;
+      if (r.wachttijd_per_verzekeraar && Object.keys(r.wachttijd_per_verzekeraar).length > 0) {
+        var vvMap = r.wachttijd_per_verzekeraar;
+        var pvWks = [];
+        Object.keys(vvMap).forEach(function(vv) {
+          var m = String(vvMap[vv]).match(/(\d+)/);
+          if (m) pvWks.push(parseInt(m[1]));
+        });
+        pvInfo = {
+          minW: pvWks.length ? Math.min.apply(null, pvWks) : null,
+          maxW: pvWks.length ? Math.max.apply(null, pvWks) : null,
+          tip: Object.keys(vvMap).map(function(vv) { return vv + ': ' + vvMap[vv]; }).join('\n')
+        };
+      }
       if (r.status === "bekend") {
-        var sortVal = r.aanmeld_weken
-          ? parseFloat(String(r.aanmeld_weken).match(/[\d.,]+/)[0].replace(",","."))
-          : r.weken_sort;
+        var sortVal = pvInfo && pvInfo.minW !== null ? pvInfo.minW
+          : (r.aanmeld_weken
+              ? parseFloat(String(r.aanmeld_weken).match(/[\d.,]+/)[0].replace(",","."))
+              : r.weken_sort);
         if (sortVal !== null && sortVal !== undefined && sortVal >= 10) intakeBadge = "laat";
       }
       span.className = "twd-badge badge-" + intakeBadge;
-      span.textContent = fmtIntake(r);
-      if (r.wachttijd) span.setAttribute("data-tip", r.wachttijd);
+      if (pvInfo) {
+        span.textContent = pvInfo.minW !== null
+          ? (pvInfo.minW === pvInfo.maxW ? pvInfo.minW + ' weken' : pvInfo.minW + '-' + pvInfo.maxW + ' weken')
+          : fmtIntake(r);
+        span.setAttribute('data-tip', pvInfo.tip);
+      } else {
+        span.textContent = fmtIntake(r);
+        if (r.wachttijd) span.setAttribute("data-tip", r.wachttijd);
+      }
       wtCell.appendChild(span);
 
       if (r.bron) {
@@ -352,7 +416,7 @@
         bronLink.textContent = "↗"; bronLink.className = "twd-link"; bronLink.title = "Bron bekijken";
         wtCell.appendChild(bronLink);
       }
-      tdWt.appendChild(wtCell);
+      tdWt.setAttribute("data-label", "Wachttijd voor intake"); tdWt.appendChild(wtCell);
       tr.appendChild(tdWt);
 
       var tdBehandel = document.createElement("td");
@@ -365,9 +429,9 @@
       } else {
         tdBehandel.textContent = behandelVal;
       }
-      tr.appendChild(tdBehandel);
+      tdBehandel.setAttribute("data-label", "Behandelwachttijd"); tr.appendChild(tdBehandel);
 
-      var tdTel = document.createElement("td"); tdTel.textContent = r.telefoon || "—"; tr.appendChild(tdTel);
+      var tdTel = document.createElement("td"); tdTel.setAttribute("data-label", "Telefoon"); tdTel.textContent = r.telefoon || "—"; tr.appendChild(tdTel);
 
       var tdEmail = document.createElement("td");
       if (r.email && r.email !== "Onbekend") {
@@ -376,9 +440,9 @@
         aEmail.style.color = "#2E5C8A"; aEmail.style.fontSize = "12px"; aEmail.style.wordBreak = "break-all";
         tdEmail.appendChild(aEmail);
       } else { tdEmail.textContent = "—"; }
-      tr.appendChild(tdEmail);
+      tdEmail.setAttribute("data-label", "Email"); tr.appendChild(tdEmail);
 
-      var tdLoc = document.createElement("td"); tdLoc.textContent = r.locatie; tr.appendChild(tdLoc);
+      var tdLoc = document.createElement("td"); tdLoc.setAttribute("data-label", "Locatie"); tdLoc.textContent = r.locatie; tr.appendChild(tdLoc);
 
       var tdCat = document.createElement("td");
       r.categorieen.forEach(function (c) {
@@ -387,7 +451,7 @@
         chip.textContent = CAT_LABELS[c] || c;
         tdCat.appendChild(chip);
       });
-      tr.appendChild(tdCat);
+      tdCat.setAttribute("data-label", "Categorieën"); tr.appendChild(tdCat);
 
       tbody.appendChild(tr);
     });
