@@ -187,13 +187,13 @@
   <thead>
     <tr>
       <th data-key="naam">Naam<span class="arrow"></span><div class="resize-handle"></div></th>
-      <th data-key="categorieen_label">Categorie&euml;n<span class="arrow"></span><div class="resize-handle"></div></th>
       <th data-key="level">Zorgintensiteit<span class="arrow"></span><div class="resize-handle"></div></th>
-      <th data-key="telefoon">Telefoonnummer<span class="arrow"></span><div class="resize-handle"></div></th>
-      <th data-key="email">Email<span class="arrow"></span><div class="resize-handle"></div></th>
       <th data-key="weken_sort">Wachttijd voor intake<span class="arrow"></span><div class="resize-handle"></div></th>
       <th data-key="behandel_weken">Behandelwachttijd<span class="arrow"></span><div class="resize-handle"></div></th>
+      <th data-key="telefoon">Telefoonnummer<span class="arrow"></span><div class="resize-handle"></div></th>
+      <th data-key="email">Email<span class="arrow"></span><div class="resize-handle"></div></th>
       <th data-key="locatie">Locatie<span class="arrow"></span><div class="resize-handle"></div></th>
+      <th data-key="categorieen_label">Categorie&euml;n<span class="arrow"></span><div class="resize-handle"></div></th>
     </tr>
   </thead>
   <tbody id="twd-tbody"></tbody>
@@ -322,31 +322,11 @@
       tdNaam.appendChild(aNaam);
       tr.appendChild(tdNaam);
 
-      var tdCat = document.createElement("td");
-      r.categorieen.forEach(function (c) {
-        var chip = document.createElement("span");
-        chip.className = "twd-cat-chip";
-        chip.textContent = CAT_LABELS[c] || c;
-        tdCat.appendChild(chip);
-      });
-      tr.appendChild(tdCat);
-
       var tdLevel = document.createElement("td");
       var badgeLvl = document.createElement("span");
       badgeLvl.textContent = r.zorgintensiteit;
       tdLevel.appendChild(badgeLvl);
       tr.appendChild(tdLevel);
-
-      var tdTel = document.createElement("td"); tdTel.textContent = r.telefoon || "—"; tr.appendChild(tdTel);
-
-      var tdEmail = document.createElement("td");
-      if (r.email && r.email !== "Onbekend") {
-        var aEmail = document.createElement("a");
-        aEmail.href = "mailto:" + r.email; aEmail.textContent = r.email;
-        aEmail.style.color = "#2E5C8A"; aEmail.style.fontSize = "12px"; aEmail.style.wordBreak = "break-all";
-        tdEmail.appendChild(aEmail);
-      } else { tdEmail.textContent = "—"; }
-      tr.appendChild(tdEmail);
 
       var tdWt = document.createElement("td");
       var wtCell = document.createElement("div");
@@ -379,7 +359,27 @@
       }
       tr.appendChild(tdBehandel);
 
+      var tdTel = document.createElement("td"); tdTel.textContent = r.telefoon || "—"; tr.appendChild(tdTel);
+
+      var tdEmail = document.createElement("td");
+      if (r.email && r.email !== "Onbekend") {
+        var aEmail = document.createElement("a");
+        aEmail.href = "mailto:" + r.email; aEmail.textContent = r.email;
+        aEmail.style.color = "#2E5C8A"; aEmail.style.fontSize = "12px"; aEmail.style.wordBreak = "break-all";
+        tdEmail.appendChild(aEmail);
+      } else { tdEmail.textContent = "—"; }
+      tr.appendChild(tdEmail);
+
       var tdLoc = document.createElement("td"); tdLoc.textContent = r.locatie; tr.appendChild(tdLoc);
+
+      var tdCat = document.createElement("td");
+      r.categorieen.forEach(function (c) {
+        var chip = document.createElement("span");
+        chip.className = "twd-cat-chip";
+        chip.textContent = CAT_LABELS[c] || c;
+        tdCat.appendChild(chip);
+      });
+      tr.appendChild(tdCat);
 
       tbody.appendChild(tr);
     });
