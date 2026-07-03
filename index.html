@@ -468,19 +468,26 @@ function submitSuggestie() {
     alert('Vul minimaal de praktijknaam en een toelichting in.');
     return;
   }
-  var body = 'Praktijk: ' + praktijk + '\n\n'
-           + 'Opmerking:\n' + tekst + '\n'
-           + (link ? '\nBron/link: ' + link + '\n' : '')
-           + (naam ? '\nIngediend door: ' + naam : '');
-  var subject = 'Suggestie dashboard: ' + praktijk;
-  window.location.href = 'mailto:hpbderks@gmail.com'
-    + '?subject=' + encodeURIComponent(subject)
-    + '&body='    + encodeURIComponent(body);
-  document.getElementById('twd-suggest-overlay').classList.remove('open');
-  document.getElementById('sug-naam').value = '';
-  document.getElementById('sug-praktijk').value = '';
-  document.getElementById('sug-tekst').value = '';
-  document.getElementById('sug-link').value = '';
+  var btn = document.querySelector('.twd-modal-submit');
+  btn.disabled = true; btn.textContent = 'Versturen...';
+  fetch('https://script.google.com/macros/s/AKfycbyNCyAS4fb_IZ8NsLWvgaNEvZrfQGpbNeS3cFyBMGbIUAMsREglAPP5ZtVu3bGMhm-8/exec', {
+    method: 'POST',
+    mode: 'no-cors',
+    body: JSON.stringify({ naam: naam, praktijk: praktijk, opmerking: tekst, link: link })
+  })
+  .then(function() {
+    btn.disabled = false; btn.textContent = 'Versturen';
+    document.getElementById('twd-suggest-overlay').classList.remove('open');
+    document.getElementById('sug-naam').value = '';
+    document.getElementById('sug-praktijk').value = '';
+    document.getElementById('sug-tekst').value = '';
+    document.getElementById('sug-link').value = '';
+    alert('Bedankt! Je suggestie is ontvangen en wordt zo snel mogelijk nagelopen.');
+  })
+  .catch(function() {
+    btn.disabled = false; btn.textContent = 'Versturen';
+    alert('Er ging iets mis. Probeer het later opnieuw.');
+  });
 }
 </script>
 </div>
