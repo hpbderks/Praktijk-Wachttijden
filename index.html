@@ -38,7 +38,18 @@
   .twd-table td { padding: 8px 10px; border-bottom: 1px solid #ebedf0; vertical-align: top; }
   .twd-table tr:hover td { background: #f9fafb; }
   .twd-table-wrap { max-height: 600px; overflow: auto; border: 1px solid #ebedf0; border-radius: 8px; }
-  .twd-badge { display: inline-block; padding: 2px 8px; border-radius: 999px; font-size: 11px; font-weight: 600; white-space: nowrap; }
+  .twd-badge { display: inline-block; padding: 2px 8px; border-radius: 999px; font-size: 11px; font-weight: 600; white-space: nowrap; position: relative; }
+  .twd-badge[data-tip] { cursor: help; }
+  .twd-badge[data-tip]:hover::after {
+    content: attr(data-tip); position: absolute; left: 50%; bottom: 140%; transform: translateX(-50%);
+    background: #1f2430; color: #fff; padding: 8px 10px; border-radius: 6px;
+    font-size: 11.5px; font-weight: 400; white-space: normal; width: 280px;
+    line-height: 1.4; z-index: 20; box-shadow: 0 4px 12px rgba(0,0,0,.2);
+  }
+  .twd-badge[data-tip]:hover::before {
+    content: ''; position: absolute; left: 50%; bottom: 118%; transform: translateX(-50%);
+    border: 5px solid transparent; border-top-color: #1f2430; z-index: 20;
+  }
   .badge-bekend { background: #e3f6e8; color: #1d7a3e; }
   .badge-geen_wachtlijst { background: #e3f6e8; color: #1d7a3e; }
   .badge-aanmeldstop { background: #fde8e8; color: #b42318; }
@@ -181,7 +192,7 @@
       <th data-key="telefoon">Telefoonnummer<span class="arrow"></span><div class="resize-handle"></div></th>
       <th data-key="email">Email<span class="arrow"></span><div class="resize-handle"></div></th>
       <th data-key="weken_sort">Wachttijd voor intake<span class="arrow"></span><div class="resize-handle"></div></th>
-      <th data-key="behandel_weken">Behandelwachttijd (wk)<span class="arrow"></span><div class="resize-handle"></div></th>
+      <th data-key="behandel_weken">Behandelwachttijd<span class="arrow"></span><div class="resize-handle"></div></th>
       <th data-key="locatie">Locatie<span class="arrow"></span><div class="resize-handle"></div></th>
     </tr>
   </thead>
@@ -344,26 +355,29 @@
       var span = document.createElement("span");
       span.className = "twd-badge badge-" + r.status;
       span.textContent = fmtIntake(r);
+      if (r.wachttijd) span.setAttribute("data-tip", r.wachttijd);
       wtCell.appendChild(span);
 
-      if (r.wachttijd || r.bron) {
-        var info;
-        if (r.bron) {
-          info = document.createElement("a");
-          info.href = r.bron; info.target = "_blank"; info.rel = "noopener noreferrer";
-          info.style.cursor = "pointer";
-        } else {
-          info = document.createElement("span");
-        }
-        info.className = "twd-info";
-        if (r.wachttijd) info.setAttribute("data-tip", r.wachttijd);
-        info.textContent = "i";
-        wtCell.appendChild(info);
+      if (r.bron) {
+        var bronLink = document.createElement("a");
+        bronLink.href = r.bron; bronLink.target = "_blank"; bronLink.rel = "noopener noreferrer";
+        bronLink.textContent = "↗"; bronLink.className = "twd-link"; bronLink.title = "Bron bekijken";
+        wtCell.appendChild(bronLink);
       }
       tdWt.appendChild(wtCell);
       tr.appendChild(tdWt);
 
-      var tdBehandel = document.createElement("td"); tdBehandel.textContent = fmtSplit(r.behandel_weken, r.status); tr.appendChild(tdBehandel);
+      var tdBehandel = document.createElement("td");
+      var behandelVal = fmtSplit(r.behandel_weken, r.status);
+      if (behandelVal && behandelVal !== "—" && behandelVal !== "n.v.t.") {
+        var badgeB = document.createElement("span");
+        badgeB.className = "twd-badge badge-bekend";
+        badgeB.textContent = behandelVal + " wk";
+        tdBehandel.appendChild(badgeB);
+      } else {
+        tdBehandel.textContent = behandelVal;
+      }
+      tr.appendChild(tdBehandel);
 
       var tdLoc = document.createElement("td"); tdLoc.textContent = r.locatie; tr.appendChild(tdLoc);
 
