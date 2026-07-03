@@ -63,6 +63,9 @@
     border: 5px solid transparent; border-top-color: #1f2430; z-index: 20;
   }
   .twd-cat-chip { display: inline-block; padding: 1px 7px; border-radius: 999px; font-size: 10.5px; font-weight: 600; white-space: nowrap; background: #eaf0fb; color: #2E5C8A; margin: 1px 2px 1px 0; }
+  .resize-handle { position: absolute; right: 0; top: 0; width: 5px; height: 100%; cursor: col-resize; user-select: none; z-index: 1; }
+  .resize-handle:hover, .resize-handle.resizing { background: rgba(255,255,255,0.35); border-radius: 2px; }
+  .twd-table th { position: relative; }
   .twd-disclaimer { font-size: 11px; color: #8a93a3; margin: 14px 2px 0 2px; line-height: 1.5; border-top: 1px solid #ebedf0; padding-top: 10px; }
   .twd-suggest-btn { background: #fff; color: #2E5C8A; border: 1.5px solid #2E5C8A; border-radius: 7px; padding: 7px 14px; font-size: 12.5px; font-weight: 600; cursor: pointer; white-space: nowrap; }
   .twd-suggest-btn:hover { background: #eaf0fb; }
@@ -172,14 +175,14 @@
 <table class="twd-table">
   <thead>
     <tr>
-      <th data-key="naam">Naam<span class="arrow"></span></th>
-      <th data-key="categorieen_label">Categorie&euml;n<span class="arrow"></span></th>
-      <th data-key="level">Zorgintensiteit<span class="arrow"></span></th>
-      <th data-key="telefoon">Telefoonnummer<span class="arrow"></span></th>
-      <th data-key="email">Email<span class="arrow"></span></th>
-      <th data-key="weken_sort">Wachttijd voor intake<span class="arrow"></span></th>
-      <th data-key="behandel_weken">Behandelwachttijd (wk)<span class="arrow"></span></th>
-      <th data-key="locatie">Locatie<span class="arrow"></span></th>
+      <th data-key="naam">Naam<span class="arrow"></span><div class="resize-handle"></div></th>
+      <th data-key="categorieen_label">Categorie&euml;n<span class="arrow"></span><div class="resize-handle"></div></th>
+      <th data-key="level">Zorgintensiteit<span class="arrow"></span><div class="resize-handle"></div></th>
+      <th data-key="telefoon">Telefoonnummer<span class="arrow"></span><div class="resize-handle"></div></th>
+      <th data-key="email">Email<span class="arrow"></span><div class="resize-handle"></div></th>
+      <th data-key="weken_sort">Wachttijd voor intake<span class="arrow"></span><div class="resize-handle"></div></th>
+      <th data-key="behandel_weken">Behandelwachttijd (wk)<span class="arrow"></span><div class="resize-handle"></div></th>
+      <th data-key="locatie">Locatie<span class="arrow"></span><div class="resize-handle"></div></th>
     </tr>
   </thead>
   <tbody id="twd-tbody"></tbody>
@@ -400,6 +403,39 @@
   populateLocaties();
   render();
 })();
+
+// ── Column resize ──────────────────────────────────────────────────────────
+(function () {
+  var table = document.querySelector('.twd-table');
+  if (!table) return;
+  var handles = table.querySelectorAll('thead .resize-handle');
+  handles.forEach(function (handle) {
+    handle.addEventListener('mousedown', function (e) {
+      var th = handle.parentElement;
+      var startX = e.pageX;
+      var startW = th.offsetWidth;
+      document.body.style.cursor = 'col-resize';
+      document.body.style.userSelect = 'none';
+      function onMove(e) {
+        var w = Math.max(40, startW + e.pageX - startX);
+        th.style.width = w + 'px';
+        th.style.minWidth = w + 'px';
+      }
+      function onUp() {
+        document.body.style.cursor = '';
+        document.body.style.userSelect = '';
+        handle.classList.remove('resizing');
+        document.removeEventListener('mousemove', onMove);
+        document.removeEventListener('mouseup', onUp);
+      }
+      handle.classList.add('resizing');
+      document.addEventListener('mousemove', onMove);
+      document.addEventListener('mouseup', onUp);
+      e.preventDefault();
+    });
+  });
+})();
+
 
 function submitSuggestie() {
   var naam    = document.getElementById('sug-naam').value.trim();
