@@ -226,17 +226,17 @@
       return statusLabels[r.status];
     }
     if (r.aanmeld_weken) {
-      return r.aanmeld_weken + " wk" + (statusLabels[r.status] && r.status !== "bekend" ? " (" + statusLabels[r.status] + ")" : "");
+      return r.aanmeld_weken + " weken" + (statusLabels[r.status] && r.status !== "bekend" ? " (" + statusLabels[r.status] + ")" : "");
     }
     if (r.weken_sort === null || r.weken_sort === undefined) {
       return statusLabels[r.status] || "Onbekend";
     }
     var wStr = String(r.weken_sort).replace(".", ",");
-    return wStr + " wk" + (statusLabels[r.status] && r.status !== "bekend" ? " (" + statusLabels[r.status] + ")" : "");
+    return wStr + " weken" + (statusLabels[r.status] && r.status !== "bekend" ? " (" + statusLabels[r.status] + ")" : "");
   }
 
   function fmtSplit(weeks, status) {
-    if (status === "geen_wachttijd_concept") return "n.v.t.";
+    if (status === "geen_wachttijd_concept") return "—";
     if (weeks === null || weeks === undefined || weeks === "") return "—";
     return weeks; // already formatted server-side: plain number ("35"), decimal
                   // ("4,5") or range ("2-8")
@@ -352,7 +352,7 @@
       if (behandelVal && behandelVal !== "—" && behandelVal !== "n.v.t.") {
         var badgeB = document.createElement("span");
         badgeB.className = "twd-badge badge-bekend";
-        badgeB.textContent = behandelVal + " wk";
+        badgeB.textContent = behandelVal + " weken";
         tdBehandel.appendChild(badgeB);
       } else {
         tdBehandel.textContent = behandelVal;
