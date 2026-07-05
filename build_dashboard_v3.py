@@ -217,6 +217,17 @@ HTML = """<!DOCTYPE html>
   .resize-handle:hover, .resize-handle.resizing {{ background: rgba(255,255,255,0.35); border-radius: 2px; }}
   .twd-table th {{ position: relative; }}
   .twd-disclaimer {{ font-size: 11px; color: #8a93a3; margin: 14px 2px 0 2px; line-height: 1.5; border-top: 1px solid #ebedf0; padding-top: 10px; }}
+  .twd-summary {{ display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 14px; }}
+  .twd-summary-card {{ flex: 1 1 100px; min-width: 90px; max-width: 200px; background: #f6f7f9; border: 1.5px solid #ebedf0; border-radius: 9px; padding: 10px 12px 8px; cursor: pointer; transition: border-color 0.15s, background 0.15s; text-align: center; }}
+  .twd-summary-card:hover {{ border-color: #2E5C8A; background: #eaf0fb; }}
+  .twd-summary-card.active {{ border-color: #2E5C8A; background: #eaf0fb; }}
+  .twd-summary-card .sc-num {{ font-size: 22px; font-weight: 700; line-height: 1.1; }}
+  .twd-summary-card .sc-lbl {{ font-size: 10.5px; font-weight: 600; color: #6b7280; margin-top: 3px; line-height: 1.3; }}
+  .sc-groen .sc-num {{ color: #1d7a3e; }}
+  .sc-blauw .sc-num {{ color: #2E5C8A; }}
+  .sc-oranje .sc-num {{ color: #c45000; }}
+  .sc-rood .sc-num {{ color: #b42318; }}
+  .sc-grijs .sc-num {{ color: #6b7280; }}
   .twd-suggest-btn {{ background: #fff; color: #2E5C8A; border: 1.5px solid #2E5C8A; border-radius: 7px; padding: 7px 14px; font-size: 12.5px; font-weight: 600; cursor: pointer; white-space: nowrap; }}
   .twd-suggest-btn:hover {{ background: #eaf0fb; }}
   .twd-modal-overlay {{ display: none; position: fixed; inset: 0; background: rgba(0,0,0,0.45); z-index: 100; align-items: center; justify-content: center; }}
@@ -268,6 +279,9 @@ HTML = """<!DOCTYPE html>
     </div>
   </div>
 </div>
+
+<!-- Samenvatting -->
+<div class="twd-summary" id="twd-summary"></div>
 
 <div class="twd-filters">
   <div>
@@ -380,7 +394,61 @@ HTML = """<!DOCTYPE html>
     return m ? parseFloat(m[0].replace(",", ".")) : Infinity;
   }}
 
-  function populateLocaties() {{
+  function buildSummary() {{
+    var cards = [
+      {{ lbl: "Geen wachttijd-concept", colorCls: "sc-groen",
+        count: DATA.filter(function(r){{ return r.status === "geen_wachttijd_concept"; }}).length,
+        statusVal: "geen_wachttijd_concept" }},
+      {{ lbl: "Geen wachtlijst", colorCls: "sc-groen",
+        count: DATA.filter(function(r){{ return r.status === "geen_wachtlijst"; }}).length,
+        statusVal: "geen_wachtlijst" }},
+      {{ lbl: "0\u20134 weken", colorCls: "sc-groen",
+        count: DATA.filter(function(r){{ return r.status === "bekend" && r.weken_sort !== null && r.weken_sort !== undefined && r.weken_sort <= 4; }}).length,
+        statusVal: null }},
+      {{ lbl: "4\u201310 weken", colorCls: "sc-blauw",
+        count: DATA.filter(function(r){{ return r.status === "bekend" && r.weken_sort !== null && r.weken_sort !== undefined && r.weken_sort > 4 && r.weken_sort <= 10; }}).length,
+        statusVal: null }},
+      {{ lbl: "10\u201320 weken", colorCls: "sc-oranje",
+        count: DATA.filter(function(r){{ return r.status === "bekend" && r.weken_sort !== null && r.weken_sort !== undefined && r.weken_sort > 10 && r.weken_sort <= 20; }}).length,
+        statusVal: null }},
+      {{ lbl: "20+ weken", colorCls: "sc-oranje",
+        count: DATA.filter(function(r){{ return r.status === "bekend" && r.weken_sort !== null && r.weken_sort !== undefined && r.weken_sort > 20; }}).length,
+        statusVal: null }},
+      {{ lbl: "Aanmeldstop", colorCls: "sc-rood",
+        count: DATA.filter(function(r){{ return r.status === "aanmeldstop"; }}).length,
+        statusVal: "aanmeldstop" }},
+      {{ lbl: "Onbekend", colorCls: "sc-grijs",
+        count: DATA.filter(function(r){{ return r.status === "onbekend"; }}).length,
+        statusVal: "onbekend" }},
+    ];
+    var container = document.getElementById("twd-summary");
+    cards.forEach(function(c) {{
+      var div = document.createElement("div");
+      div.className = "twd-summary-card " + c.colorCls;
+      if (c.statusVal) {{
+        div.style.cursor = "pointer";
+        div.onclick = function() {{
+          var wasActive = div.classList.contains("active");
+          container.querySelectorAll(".twd-summary-card.active").forEach(function(el) {{ el.classList.remove("active"); }});
+          if (!wasActive) {{
+            document.getElementById("f-status").value = c.statusVal;
+            state.status = c.statusVal;
+            div.classList.add("active");
+          }} else {{
+            document.getElementById("f-status").value = "";
+            state.status = "";
+          }}
+          render();
+        }};
+      }} else {{
+        div.style.cursor = "default";
+      }}
+      div.innerHTML = '<div class="sc-num">' + c.count + '</div><div class="sc-lbl">' + c.lbl + '</div>';
+      container.appendChild(div);
+    }});
+  }}
+
+    function populateLocaties() {{
     var sel = document.getElementById("f-locatie");
     var locs = Array.from(new Set(DATA.map(function (r) {{ return r.locatie; }}))).sort();
     locs.forEach(function (l) {{
@@ -553,6 +621,7 @@ HTML = """<!DOCTYPE html>
   document.getElementById("f-locatie").addEventListener("change", function (e) {{ state.locatie = e.target.value; render(); }});
 
   populateLocaties();
+  buildSummary();
   render();
 }})();
 

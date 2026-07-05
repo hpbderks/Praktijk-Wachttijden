@@ -74,7 +74,7 @@
     ],
     "row_id": 3,
     "email": "info@lambertushof.nl",
-    "aanmeld_weken": "30-34 weken"
+    "aanmeld_weken": "30-34"
   },
   {
     "naam": "Psycholoog Zaltbommel",
@@ -113,7 +113,7 @@
     ],
     "row_id": 5,
     "email": "info@max-ernst.nl",
-    "aanmeld_weken": "35 weken"
+    "aanmeld_weken": "35"
   },
   {
     "naam": "Praktijk Haga & Dijkstra",
@@ -170,7 +170,7 @@
     ],
     "row_id": 8,
     "email": "info@talkpsychologenpraktijk.nl",
-    "aanmeld_weken": "~16 weken"
+    "aanmeld_weken": "~16"
   },
   {
     "naam": "Ypse",
@@ -217,7 +217,7 @@
     "website": "psychologenpraktijkvught.nl",
     "wachttijd": "Alle behandelaars: momenteel geen mogelijkheid voor nieuwe aanmeldingen (Schmeitz, Sikkema, Laan). Bijgewerkt 04-07-2026.",
     "bron": "https://psychologenpraktijkvught.nl/PPV/index.php",
-    "weken_sort": 999,
+    "weken_sort": null,
     "status": "aanmeldstop",
     "locatie": "Vught",
     "categorieen": [
@@ -272,7 +272,7 @@
     "website": "ppquanta.nl",
     "wachttijd": "Praktijk sluit 1 november 2026. Aanmelden niet meer mogelijk (per 04-07-2026).",
     "bron": "https://ppquanta.nl/",
-    "weken_sort": 9999,
+    "weken_sort": null,
     "status": "aanmeldstop",
     "locatie": "'s-Hertogenbosch",
     "categorieen": [
@@ -429,7 +429,7 @@
     ],
     "row_id": 22,
     "email": "info@vanderaalstpsychologie.nl",
-    "aanmeld_weken": "15 weken"
+    "aanmeld_weken": "15"
   },
   {
     "naam": "Praktijk voor Psychologische Hulpverlening Berlicum",
@@ -867,7 +867,7 @@
     "website": "willemshuys.nl",
     "wachttijd": "Aanmeldstop: geen ruimte voor nieuwe aanmeldingen (per 04-07-2026). Aanmeldstop was ingegaan per februari 2026.",
     "bron": "https://willemshuys.nl/noten",
-    "weken_sort": 9999,
+    "weken_sort": null,
     "status": "aanmeldstop",
     "locatie": "'s-Hertogenbosch",
     "categorieen": [
@@ -1258,7 +1258,7 @@
     ],
     "row_id": 67,
     "email": "info@saleemggz.nl",
-    "aanmeld_weken": "16-20 weken"
+    "aanmeld_weken": "16-20"
   },
   {
     "naam": "Walboomers Psychologie",
@@ -2704,7 +2704,7 @@
     ],
     "row_id": 144,
     "email": "info@vandenbosch-kroes.nl",
-    "aanmeld_weken": "4 weken"
+    "aanmeld_weken": "4"
   },
   {
     "id": 185,
@@ -2733,7 +2733,7 @@
     "website": "",
     "wachttijd": "Aanmeldstop per 15 april 2026. Zodra wachtlijst het toelaat gaat stop eraf (per 04-07-2026).",
     "bron": "https://www.hoffmanderoijpsychologen.nl/",
-    "weken_sort": 9999,
+    "weken_sort": null,
     "status": "aanmeldstop",
     "locatie": "Vught",
     "categorieen": [
@@ -2819,7 +2819,7 @@
     ],
     "row_id": 150,
     "email": "femkearnoldussen@gzpsychologie-coaching.com",
-    "aanmeld_weken": "10-12 weken",
+    "aanmeld_weken": "10-12",
     "behandel_weken": "4-5 weken"
   },
   {
@@ -2885,7 +2885,7 @@
     "website": "",
     "wachttijd": "Momenteel geen nieuwe cliënten aangenomen (per 04-07-2026, website psychologiepraktijkmaaspoort.nl).",
     "bron": "https://www.psychologiepraktijkmaaspoort.nl/patientenportaal/",
-    "weken_sort": 9999,
+    "weken_sort": null,
     "status": "aanmeldstop",
     "locatie": "s-Hertogenbosch",
     "categorieen": [
@@ -2949,7 +2949,7 @@
     ],
     "row_id": 157,
     "email": "info@flowpsychologie.nl",
-    "aanmeld_weken": "12-14 weken",
+    "aanmeld_weken": "12-14",
     "behandel_weken": "2-3 weken"
   },
   {
@@ -3033,7 +3033,7 @@
     "website": "",
     "wachttijd": "Gesloten voor nieuwe cliënten (bijgewerkt 13-01-2026)",
     "bron": "https://psychologiepraktijkdekleijn.nl/",
-    "weken_sort": 999,
+    "weken_sort": null,
     "status": "aanmeldstop",
     "locatie": "Rosmalen",
     "categorieen": [
@@ -3473,7 +3473,7 @@
     ],
     "row_id": 185,
     "email": "info@praktijkvandewiel.nl",
-    "aanmeld_weken": "16-18 weken"
+    "aanmeld_weken": "16-18"
   },
   {
     "id": 370,
@@ -3512,7 +3512,7 @@
     ],
     "row_id": 187,
     "email": "Onbekend",
-    "aanmeld_weken": "22 weken"
+    "aanmeld_weken": "22"
   },
   {
     "id": 374,
@@ -3719,7 +3719,7 @@
     ],
     "row_id": 198,
     "email": "info@vurans.nl",
-    "aanmeld_weken": "0-2 weken"
+    "aanmeld_weken": "0-2"
   },
   {
     "id": 401,
@@ -3813,7 +3813,7 @@
     ],
     "row_id": 203,
     "email": "welkom@eleos.nl",
-    "aanmeld_weken": "25-50 weken"
+    "aanmeld_weken": "25-50"
   },
   {
     "id": 406,
@@ -3881,7 +3881,7 @@
     "website": "https://www.willemshuys.nl/",
     "wachttijd": "Praktijk Willemshuys heeft aanmeldstop voor nieuwe cliënten (bijgewerkt juli 2026)",
     "bron": "https://www.willemshuys.nl/",
-    "weken_sort": 999,
+    "weken_sort": null,
     "status": "aanmeldstop",
     "locatie": "s-Hertogenbosch",
     "categorieen": [
@@ -4167,7 +4167,7 @@
     ],
     "row_id": 222,
     "email": "info@point-o.nl",
-    "aanmeld_weken": "~8-9 weken",
+    "aanmeld_weken": "~8-9",
     "behandel_weken": "5-6 maanden (individueel)"
   },
   {
@@ -4242,7 +4242,7 @@
     ],
     "row_id": 226,
     "email": "info@dehoop.org",
-    "aanmeld_weken": "10 weken (Dordrecht)"
+    "aanmeld_weken": "10 (Dordrecht)"
   },
   {
     "id": 448,
@@ -4261,7 +4261,7 @@
     ],
     "row_id": 227,
     "email": "Onbekend",
-    "aanmeld_weken": "10 weken"
+    "aanmeld_weken": "10"
   },
   {
     "id": 454,
@@ -4372,7 +4372,7 @@
     ],
     "row_id": 233,
     "email": "Onbekend",
-    "aanmeld_weken": "13 weken (OBT)"
+    "aanmeld_weken": "13 (OBT)"
   },
   {
     "id": 464,
@@ -4391,7 +4391,7 @@
     ],
     "row_id": 234,
     "email": "Onbekend",
-    "aanmeld_weken": "6-23 weken"
+    "aanmeld_weken": "6-23"
   },
   {
     "id": 467,
@@ -5539,7 +5539,7 @@
     ],
     "row_id": 295,
     "email": "Onbekend",
-    "aanmeld_weken": "<6 weken (Digipoli)"
+    "aanmeld_weken": "<6 (Digipoli)"
   },
   {
     "id": 591,
@@ -5613,7 +5613,7 @@
     ],
     "row_id": 299,
     "email": "Onbekend",
-    "aanmeld_weken": "36 weken"
+    "aanmeld_weken": "36"
   },
   {
     "id": 595,
@@ -5688,7 +5688,7 @@
     ],
     "row_id": 303,
     "email": "info@dehoop.org",
-    "aanmeld_weken": "10-12 weken"
+    "aanmeld_weken": "10-12"
   },
   {
     "id": 599,
@@ -5978,7 +5978,7 @@
     ],
     "row_id": 318,
     "email": "Onbekend",
-    "aanmeld_weken": "16 weken"
+    "aanmeld_weken": "16"
   },
   {
     "id": 624,
@@ -6073,7 +6073,7 @@
     ],
     "row_id": 323,
     "email": "info@care4sureggz.nl",
-    "aanmeld_weken": "~9 weken"
+    "aanmeld_weken": "~9"
   },
   {
     "id": 655,
@@ -6092,6 +6092,6 @@
     ],
     "row_id": 324,
     "email": "info@deadhdspecialist.nl",
-    "aanmeld_weken": "4 weken"
+    "aanmeld_weken": "4"
   }
 ]
