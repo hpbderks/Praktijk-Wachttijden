@@ -329,7 +329,7 @@
     "wachttijd": "Aanmeldstop: geen ruimte voor nieuwe cliënten (bijgewerkt 16-06-2026)",
     "bron": "https://www.smulderspsychologie.nl/wachttijden",
     "weken_sort": null,
-    "status": "bekend",
+    "status": "aanmeldstop",
     "locatie": "'s-Hertogenbosch",
     "categorieen": [
       "angst_en_stemming",
@@ -337,7 +337,8 @@
       "trauma"
     ],
     "row_id": 17,
-    "email": "info@smulderspsychologie.nl"
+    "email": "info@smulderspsychologie.nl",
+    "aanmeld_weken": null
   },
   {
     "naam": "Psychologenpraktijk Broeren",
@@ -476,7 +477,7 @@
     "wachttijd": "Aanmelding momenteel niet mogelijk (cliëntenstop)",
     "bron": "https://www.yellowpsychotherapie.com/psychologische-behandeling/aanmelding-en-wachttijden/",
     "weken_sort": null,
-    "status": "bekend",
+    "status": "aanmeldstop",
     "locatie": "Sint-Michielsgestel",
     "categorieen": [
       "angst_en_stemming",
@@ -484,7 +485,8 @@
       "trauma"
     ],
     "row_id": 25,
-    "email": "n.hehanussa@willemshuys.nl"
+    "email": "n.hehanussa@willemshuys.nl",
+    "aanmeld_weken": null
   },
   {
     "naam": "Psychologenpraktijk de Maasoever",
@@ -921,7 +923,7 @@
     "website": "changesggz.nl",
     "wachttijd": "Intake binnen 2 weken; behandelwachttijd sterk afhankelijk van locatie en verzekeraar (verslaving 16-52 weken, eetstoornis 10-32 weken, trauma 10-52 weken voor dagbehandeling Breda)",
     "bron": "https://changesggz.nl/wachttijden/",
-    "weken_sort": null,
+    "weken_sort": 2,
     "status": "bekend",
     "locatie": "Breda",
     "categorieen": [
@@ -930,7 +932,8 @@
       "verslaving"
     ],
     "row_id": 49,
-    "email": "info@changesggz.nl"
+    "email": "info@changesggz.nl",
+    "aanmeld_weken": "2"
   },
   {
     "naam": "GGZ Breburg",
@@ -2383,7 +2386,7 @@
     "wachttijd": "Geen wachttijd vermeld - praktijk geeft expliciet aan geen wachttijden te hebben en gemiddeld 8 weken sneller te kunnen starten dan reguliere zorg; intake binnen 7 werkdagen",
     "bron": "https://www.burnoutpreventienederland.nl/",
     "weken_sort": 0,
-    "status": "bekend",
+    "status": "geen_wachtlijst",
     "locatie": "Vught",
     "categorieen": [
       "stress_en_burnout"
@@ -2994,8 +2997,8 @@
     "website": "",
     "wachttijd": "Geen wachttijd vermeld op de praktijksite",
     "bron": "",
-    "weken_sort": 0,
-    "status": "bekend",
+    "weken_sort": null,
+    "status": "onbekend",
     "locatie": "Gemonde",
     "categorieen": [
       "angst_en_stemming"
@@ -3088,13 +3091,14 @@
     "wachttijd": "Aanmeldingsstop in 's-Hertogenbosch wegens grote drukte; in Doorwerth nog ruimte voor nieuwe behandelingen",
     "bron": "https://www.systeemtherapie.net/",
     "weken_sort": null,
-    "status": "bekend",
+    "status": "aanmeldstop",
     "locatie": "s-Hertogenbosch",
     "categorieen": [
       "relatie_en_seksualiteit"
     ],
     "row_id": 165,
-    "email": "lexvanvelzen@systeemtherapie.net"
+    "email": "lexvanvelzen@systeemtherapie.net",
+    "aanmeld_weken": null
   },
   {
     "id": 243,
@@ -3144,13 +3148,14 @@
     "wachttijd": "Aanmeldstop: praktijk vol, momenteel geen nieuwe cliënten",
     "bron": "https://www.tweevoudpsychologie.nl/",
     "weken_sort": null,
-    "status": "bekend",
+    "status": "aanmeldstop",
     "locatie": "s-Hertogenbosch",
     "categorieen": [
       "relatie_en_seksualiteit"
     ],
     "row_id": 168,
-    "email": "tweevoud@tinekestek.nl"
+    "email": "tweevoud@tinekestek.nl",
+    "aanmeld_weken": null
   },
   {
     "id": 246,
@@ -3162,13 +3167,14 @@
     "wachttijd": "Tijdelijke aanmeldstop wegens drukte tot 7 januari",
     "bron": "https://www.affecttherapie.com/",
     "weken_sort": null,
-    "status": "bekend",
+    "status": "aanmeldstop",
     "locatie": "s-Hertogenbosch",
     "categorieen": [
       "relatie_en_seksualiteit"
     ],
     "row_id": 169,
-    "email": "contact@affecttherapie.nl"
+    "email": "contact@affecttherapie.nl",
+    "aanmeld_weken": null
   },
   {
     "id": 247,
@@ -3385,13 +3391,14 @@
     "wachttijd": "Cliëntenstop — nieuwe aanmeldingen worden niet meer op de wachtlijst bijgeschreven",
     "bron": "https://www.compassieencognitie.nl/",
     "weken_sort": null,
-    "status": "bekend",
+    "status": "aanmeldstop",
     "locatie": "Rosmalen",
     "categorieen": [
       "relatie_en_seksualiteit"
     ],
     "row_id": 181,
-    "email": "marion@compassieencognitie.nl"
+    "email": "marion@compassieencognitie.nl",
+    "aanmeld_weken": null
   },
   {
     "id": 263,
@@ -3478,13 +3485,14 @@
     "wachttijd": "Locatie Oss (vestigingsadres uit lijst, Euterpelaan 11): aanmeldstop, wachtlijst vol. Locatie Wijchen (ander adres): 10 weken. Voor de praktijk op het Oss-adres dus aanmeldstop, geen concreet wekental",
     "bron": "https://www.psychologiecentraal.nl/",
     "weken_sort": null,
-    "status": "bekend",
+    "status": "aanmeldstop",
     "locatie": "Oss",
     "categorieen": [
       "neurodiversiteit"
     ],
     "row_id": 186,
-    "email": "info@psychologiecentraal.nl"
+    "email": "info@psychologiecentraal.nl",
+    "aanmeld_weken": null
   },
   {
     "id": 371,
@@ -3552,13 +3560,14 @@
     "wachttijd": "Aanmeldstop wegens lange wachtlijst; vanaf 1 september 2026 kan weer aangemeld worden voor de wachtlijst (concreet wekental niet vermeld, alleen hervattingsdatum van aanmelding zelf)",
     "bron": "https://www.jokeheusinkveld.nl/contact/",
     "weken_sort": null,
-    "status": "bekend",
+    "status": "aanmeldstop",
     "locatie": "Houten",
     "categorieen": [
       "neurodiversiteit"
     ],
     "row_id": 190,
-    "email": "info@jokeheusinkveld.nl"
+    "email": "info@jokeheusinkveld.nl",
+    "aanmeld_weken": null
   },
   {
     "id": 378,
@@ -4393,14 +4402,15 @@
     "website": "https://www.humanconcern.nl",
     "wachttijd": "Sterk locatie-afhankelijk: Tilburg 0 weken, digitale behandeling 9 weken, Amsterdam/Bilthoven/Nijmegen/Zwolle 25 weken, Den Haag 30 weken, Groningen 4-12 weken (bijgewerkt 24 jun 2026)",
     "bron": "https://www.humanconcern.nl/behandeling/praktische-informatie/wachttijden",
-    "weken_sort": null,
+    "weken_sort": 0,
     "status": "bekend",
     "locatie": "Tilburg",
     "categorieen": [
       "eetproblematiek"
     ],
     "row_id": 235,
-    "email": "officetilburg@humanconcern.nl"
+    "email": "officetilburg@humanconcern.nl",
+    "aanmeld_weken": "0-9"
   },
   {
     "id": 468,
@@ -4843,13 +4853,14 @@
     "wachttijd": "Aanmeldstop: cliëntenstop, momenteel geen nieuwe cliënten",
     "bron": "https://www.manonvandijk.nu/",
     "weken_sort": null,
-    "status": "bekend",
+    "status": "aanmeldstop",
     "locatie": "Vught",
     "categorieen": [
       "complementaire_zorg"
     ],
     "row_id": 259,
-    "email": "info@manonvandijk.nu"
+    "email": "info@manonvandijk.nu",
+    "aanmeld_weken": null
   },
   {
     "id": 527,
@@ -5689,14 +5700,15 @@
     "wachttijd": "Gesloten voor nieuwe aanmeldingen tot 1 september 2026",
     "bron": "https://www.ggz-psychologiepraktijk.nl/aanmelden/",
     "weken_sort": null,
-    "status": "bekend",
+    "status": "aanmeldstop",
     "locatie": "Onbekend",
     "categorieen": [
       "cultuur_en_religie",
       "online_behandeling"
     ],
     "row_id": 304,
-    "email": "info@ggz-psychologiepraktijk.nl"
+    "email": "info@ggz-psychologiepraktijk.nl",
+    "aanmeld_weken": null
   },
   {
     "id": 600,
@@ -5743,7 +5755,7 @@
     "website": "https://www.tactus.nl/tacton",
     "wachttijd": "Wachttijden per locatie: aanmeldwachttijd 3-12 weken, behandelwachttijd 7-11 weken (geen locatie in regio 's-Hertogenbosch). Online via Tacton: 6 weken.",
     "bron": "https://www.tactus.nl/behandeltraject/wachttijden/",
-    "weken_sort": null,
+    "weken_sort": 3,
     "status": "bekend",
     "locatie": "Onbekend",
     "categorieen": [
@@ -5751,7 +5763,8 @@
       "verslaving"
     ],
     "row_id": 307,
-    "email": "Onbekend"
+    "email": "Onbekend",
+    "aanmeld_weken": "3-12"
   },
   {
     "id": 603,
