@@ -1,0 +1,14 @@
+# Database — lokaal, niet in git
+wachttijden.db
+
+# GitHub token/config
+.github_config
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# OS-bestanden
+.DS_Store
+Thumbs.db
