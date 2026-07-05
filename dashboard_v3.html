@@ -286,7 +286,7 @@ function submitSuggestie(){
   if(!praktijk||!tekst){alert('Vul minimaal de praktijknaam en een toelichting in.');return;}
   var btn=document.querySelector('.btn-submit');
   btn.disabled=true;btn.textContent='Versturen...';
-  fetch( + APPS_SCRIPT_URL + ,{method:'POST',mode:'no-cors',body:JSON.stringify({naam:naam,praktijk:praktijk,opmerking:tekst,link:link})})
+  fetch('https://script.google.com/macros/s/AKfycbyNCyAS4fb_IZ8NsLWvgaNEvZrfQGpbNeS3cFyBMGbIUAMsREglAPP5ZtVu3bGMhm-8/exec',{method:'POST',mode:'no-cors',body:JSON.stringify({naam:naam,praktijk:praktijk,opmerking:tekst,link:link})})
   .then(function(){
     btn.disabled=false;btn.textContent='Versturen';
     document.getElementById('modal').classList.remove('open');
