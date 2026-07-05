@@ -352,7 +352,7 @@ HTML = """<!DOCTYPE html>
   var CAT_LABELS = {cat_labels_json};
   var MAPPED = {mapped_json};
 
-  var state = {{ sortKey: "weken_sort", sortDir: "asc", search: "", categorie: "", level: "", status: "", locatie: "" }};
+  var state = {{ sortKey: "weken_sort", sortDir: "asc", search: "", categorie: "", level: "", status: "", locatie: "", wekenBracket: null }};
 
   var statusLabels = {{
     bekend: "Bekend", geen_wachtlijst: "Geen wachtlijst", aanmeldstop: "Aanmeldstop",
@@ -413,7 +413,7 @@ HTML = """<!DOCTYPE html>
         statusVal: null }},
       {{ lbl: "20+ weken", colorCls: "sc-oranje",
         count: DATA.filter(function(r){{ return r.status === "bekend" && r.weken_sort !== null && r.weken_sort !== undefined && r.weken_sort > 20; }}).length,
-        statusVal: null }},
+        statusVal: null, bracketVal: "20+" }},
       {{ lbl: "Aanmeldstop", colorCls: "sc-rood",
         count: DATA.filter(function(r){{ return r.status === "aanmeldstop"; }}).length,
         statusVal: "aanmeldstop" }},
@@ -425,23 +425,29 @@ HTML = """<!DOCTYPE html>
     cards.forEach(function(c) {{
       var div = document.createElement("div");
       div.className = "twd-summary-card " + c.colorCls;
-      if (c.statusVal) {{
+      if (c.statusVal || c.bracketVal) {{
         div.style.cursor = "pointer";
         div.onclick = function() {{
           var wasActive = div.classList.contains("active");
           container.querySelectorAll(".twd-summary-card.active").forEach(function(el) {{ el.classList.remove("active"); }});
           if (!wasActive) {{
-            document.getElementById("f-status").value = c.statusVal;
-            state.status = c.statusVal;
+            if (c.statusVal) {{
+              document.getElementById("f-status").value = c.statusVal;
+              state.status = c.statusVal;
+              state.wekenBracket = null;
+            }} else {{
+              document.getElementById("f-status").value = "";
+              state.status = "";
+              state.wekenBracket = c.bracketVal;
+            }}
             div.classList.add("active");
           }} else {{
             document.getElementById("f-status").value = "";
             state.status = "";
+            state.wekenBracket = null;
           }}
           render();
         }};
-      }} else {{
-        div.style.cursor = "default";
       }}
       div.innerHTML = '<div class="sc-num">' + c.count + '</div><div class="sc-lbl">' + c.lbl + '</div>';
       container.appendChild(div);
@@ -461,6 +467,15 @@ HTML = """<!DOCTYPE html>
       if (state.categorie && r.categorieen.indexOf(state.categorie) === -1) return false;
       if (state.level && String(r.level) !== state.level) return false;
       if (state.status && r.status !== state.status) return false;
+      if (state.wekenBracket) {{
+        if (r.status !== "bekend") return false;
+        var ws = r.weken_sort;
+        if (ws === null || ws === undefined) return false;
+        if (state.wekenBracket === "0-4"   && ws > 4)           return false;
+        if (state.wekenBracket === "4-10"  && !(ws > 4 && ws <= 10))  return false;
+        if (state.wekenBracket === "10-20" && !(ws > 10 && ws <= 20)) return false;
+        if (state.wekenBracket === "20+"   && ws <= 20)          return false;
+      }}
       if (state.locatie && r.locatie !== state.locatie) return false;
       if (state.search) {{
         var s = state.search.toLowerCase();
