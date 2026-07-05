@@ -273,6 +273,7 @@ function render(){
   var q=document.getElementById('q').value.toLowerCase();
   var fcat=document.getElementById('fcat').value;var fi=document.getElementById('fi').value;
   var floc=document.getElementById('floc').value;
+    var fdoel=document.getElementById('fdoel').value;
   var rows=DATA.filter(function(r){
     if(q&&!(r.naam+' '+(r.locatie_norm||r.locatie||'')).toLowerCase().includes(q))return false;
     if(fcat&&!(r.cats||[]).includes(fcat))return false;
