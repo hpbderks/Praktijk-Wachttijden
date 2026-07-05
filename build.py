@@ -322,10 +322,10 @@ function render(){
       +'</div></div>'
       +'<div class="tab-panel" style="display:none" data-tab="verg"><div class="tab-verg">GGZ-behandelingen worden vergoed vanuit de <b>basisverzekering</b>, mits er een geldige verwijsbrief van de huisarts is. Het eigen risico is van toepassing.<br><br>Neem voor specifieke informatie over vergoedingen contact op met de praktijk of je zorgverzekeraar.</div></div>'
       +'</div>';
-    return '<div class="card" onclick="toggleCard(this)"><div class="card-main"><div class="dot dot-'+c+'"></div><div class="card-body"><div class="card-top">'+naamHtml+'<span class="card-loc"><span class="icon-sm">&#x1F4CD;</span>'+esc(r.locatie_norm||r.locatie||'')+'</span>'+(r.telefoon?'<span class="card-loc"><span class="icon-sm">&#x1F4DE;</span>'+esc(r.telefoon)+'</span>':'')+'</div><div class="card-meta">'+(intLabel?'<span class="chip-intensity">'+intLabel+'</span>':'')+cats+(r.doelgroep?'<span class="chip-doel">'+esc(r.doelgroep)+'</span>':'')+'</div></div><div class="card-right"><div class="card-wt">'+intakeHtml+bHtml+'</div>'+(hasDetail?'<div class="chevron">&#9660;</div>':'')+'</div></div>'+detailHtml+'</div>';
+    return '<div class="card" onclick="toggleCard(this,event)"><div class="card-main"><div class="dot dot-'+c+'"></div><div class="card-body"><div class="card-top">'+naamHtml+'<span class="card-loc"><span class="icon-sm">&#x1F4CD;</span>'+esc(r.locatie_norm||r.locatie||'')+'</span>'+(r.telefoon?'<span class="card-loc"><span class="icon-sm">&#x1F4DE;</span>'+esc(r.telefoon)+'</span>':'')+'</div><div class="card-meta">'+(intLabel?'<span class="chip-intensity">'+intLabel+'</span>':'')+cats+(r.doelgroep?'<span class="chip-doel">'+esc(r.doelgroep)+'</span>':'')+'</div></div><div class="card-right"><div class="card-wt">'+intakeHtml+bHtml+'</div>'+(hasDetail?'<div class="chevron">&#9660;</div>':'')+'</div></div>'+detailHtml+'</div>';
   }).join('');
 }
-function toggleCard(card){card.classList.toggle('open');}
+function toggleCard(card,event){if(event&&event.target.closest('.card-detail'))return;card.classList.toggle('open');}
 document.addEventListener('click',function(e){
   var btn=e.target.closest('.tab-btn');if(!btn)return;
   e.stopPropagation();
