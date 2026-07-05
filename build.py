@@ -133,12 +133,24 @@ h1{font-size:22px;font-weight:700;margin-bottom:2px;letter-spacing:-.3px}
 .badge.oranje{background:#fff7ed;color:#9a3412}.badge.rood{background:#fef2f2;color:#991b1b}
 .badge.grijs{background:#f9fafb;color:#6b7280}
 .badge-behandel{background:#f5f0ff;color:#5b21b6}
-.card-detail{display:none;padding:0 18px 16px 42px;border-top:1px solid #f5ede7}
+.card-detail{display:none;border-top:1.5px solid #f0e6df}
 .card.open .card-detail{display:block}
 .detail-wachttijd{font-size:13px;color:#4a3728;line-height:1.75;margin-top:12px;white-space:pre-wrap}
 .detail-bron{margin-top:8px;font-size:11.5px}
 .detail-bron a{color:#8b4513;text-decoration:none}
 .detail-bron a:hover{text-decoration:underline}
+.icon-sm{font-size:11px;margin-right:3px;opacity:.7}
+.card-tabs{display:flex;padding:0 18px 0 42px;border-bottom:1.5px solid #f0e6df;margin:0}
+.tab-btn{background:none;border:none;border-bottom:2.5px solid transparent;padding:8px 14px;font-size:12px;font-weight:600;color:#b08070;cursor:pointer;margin-bottom:-1.5px;transition:color .15s}
+.tab-btn:hover{color:#8b4513}
+.tab-btn.active{color:#8b4513;border-bottom-color:#8b4513}
+.tab-panel{padding:10px 18px 14px 42px}
+.tab-info{display:grid;grid-template-columns:auto 1fr;gap:6px 16px;font-size:12.5px;align-items:baseline}
+.ti-lbl{color:#b08070;font-weight:600;white-space:nowrap}
+.ti-val{color:#4a3728;text-decoration:none;word-break:break-word}
+a.ti-val:hover{color:#8b4513;text-decoration:underline}
+.tab-verg{font-size:12.5px;color:#4a3728;line-height:1.75}
+.detail-geen{font-size:12.5px;color:#b08070;font-style:italic;margin-top:8px}
 .empty{text-align:center;padding:48px 0;color:#9e7a6a;font-size:14px}
 </style>
 </head>
@@ -293,17 +305,36 @@ function render(){
     var bHtml=tot?'<div class="wt-row"><span class="wt-label">Behandeling</span><span class="badge badge-behandel">'+tot+'</span></div>':'';
     var intLabel=r.level==2?'++':r.level==3?'+++':r.level==4?'++++':'';
     var cats=(r.cats||[]).slice(0,2).map(function(k){return '<span class="chip-cat">'+esc(CAT_LABELS[k]||k)+'</span>';}).join('');
-    var hasDetail=r.wachttijd||r.bron;var detailHtml='';
-    if(hasDetail){
-      detailHtml='<div class="card-detail">';
-      if(r.wachttijd)detailHtml+='<div class="detail-wachttijd">'+esc(r.wachttijd)+'</div>';
-      if(r.bron)detailHtml+='<div class="detail-bron">Bron: <a href="'+esc(r.bron)+'" target="_blank">'+esc(r.bron)+'</a></div>';
-      detailHtml+='</div>';
-    }
-    return '<div class="card" onclick="toggleCard(this)"><div class="card-main"><div class="dot dot-'+c+'"></div><div class="card-body"><div class="card-top">'+naamHtml+'<span class="card-loc">'+esc(r.locatie_norm||r.locatie||'')+'</span>'+(r.telefoon?'<span class="card-loc"> &middot; '+esc(r.telefoon)+'</span>':'')+'</div><div class="card-meta">'+(intLabel?'<span class="chip-intensity">'+intLabel+'</span>':'')+cats+(r.doelgroep?'<span class="chip-doel">'+esc(r.doelgroep)+'</span>':'')+'</div></div><div class="card-right"><div class="card-wt">'+intakeHtml+bHtml+'</div>'+(hasDetail?'<div class="chevron">&#9660;</div>':'')+'</div></div>'+detailHtml+'</div>';
+    var hasDetail=true;
+    var detailHtml='<div class="card-detail">'
+      +'<div class="card-tabs"><button class="tab-btn active" data-tab="wacht">Wachttijden</button><button class="tab-btn" data-tab="alg">Algemeen</button><button class="tab-btn" data-tab="verg">Vergoeding</button></div>'
+      +'<div class="tab-panel" data-tab="wacht">'
+      +(r.wachttijd?'<div class="detail-wachttijd">'+esc(r.wachttijd)+'</div>':'<p class="detail-geen">Geen toelichting beschikbaar.</p>')
+      +(r.bron?'<div class="detail-bron">Bron: <a href="'+esc(r.bron)+'" target="_blank">'+esc(r.bron)+'</a></div>':'')
+      +'</div>'
+      +'<div class="tab-panel" style="display:none" data-tab="alg"><div class="tab-info">'
+      +(r.telefoon?'<span class="ti-lbl">Telefoon</span><a class="ti-val" href="tel:'+esc(r.telefoon)+'">'+esc(r.telefoon)+'</a>':'')
+      +(r.email?'<span class="ti-lbl">E-mail</span><a class="ti-val" href="mailto:'+esc(r.email)+'">'+esc(r.email)+'</a>':'')
+      +(r.website?'<span class="ti-lbl">Website</span><a class="ti-val" href="'+esc(r.website)+'" target="_blank">'+esc(r.website)+'</a>':'')
+      +((r.locatie_norm||r.locatie)?'<span class="ti-lbl">Locatie</span><span class="ti-val">'+esc(r.locatie_norm||r.locatie)+'</span>':'')
+      +(r.doelgroep?'<span class="ti-lbl">Doelgroep</span><span class="ti-val">'+esc(r.doelgroep)+'</span>':'')
+      +((r.cats&&r.cats.length)?'<span class="ti-lbl">Specialisaties</span><span class="ti-val">'+r.cats.map(function(k){return CAT_LABELS[k]||k;}).join(', ')+'</span>':'')
+      +'</div></div>'
+      +'<div class="tab-panel" style="display:none" data-tab="verg"><div class="tab-verg">GGZ-behandelingen worden vergoed vanuit de <b>basisverzekering</b>, mits er een geldige verwijsbrief van de huisarts is. Het eigen risico is van toepassing.<br><br>Neem voor specifieke informatie over vergoedingen contact op met de praktijk of je zorgverzekeraar.</div></div>'
+      +'</div>';
+    return '<div class="card" onclick="toggleCard(this)"><div class="card-main"><div class="dot dot-'+c+'"></div><div class="card-body"><div class="card-top">'+naamHtml+'<span class="card-loc"><span class="icon-sm">&#x1F4CD;</span>'+esc(r.locatie_norm||r.locatie||'')+'</span>'+(r.telefoon?'<span class="card-loc"><span class="icon-sm">&#x1F4DE;</span>'+esc(r.telefoon)+'</span>':'')+'</div><div class="card-meta">'+(intLabel?'<span class="chip-intensity">'+intLabel+'</span>':'')+cats+(r.doelgroep?'<span class="chip-doel">'+esc(r.doelgroep)+'</span>':'')+'</div></div><div class="card-right"><div class="card-wt">'+intakeHtml+bHtml+'</div>'+(hasDetail?'<div class="chevron">&#9660;</div>':'')+'</div></div>'+detailHtml+'</div>';
   }).join('');
 }
 function toggleCard(card){card.classList.toggle('open');}
+document.addEventListener('click',function(e){
+  var btn=e.target.closest('.tab-btn');if(!btn)return;
+  e.stopPropagation();
+  var d=btn.closest('.card-detail');
+  d.querySelectorAll('.tab-btn').forEach(function(b){b.classList.remove('active');});
+  d.querySelectorAll('.tab-panel').forEach(function(p){p.style.display='none';});
+  btn.classList.add('active');
+  d.querySelector('.tab-panel[data-tab="'+btn.dataset.tab+'"]').style.display='block';
+});
 render();
 function submitSuggestie(){
   var naam=document.getElementById('sug-naam').value.trim();
