@@ -255,6 +255,7 @@ function matchesSc(r){
   if(activeSc==='stop')return st==='aanmeldstop';if(activeSc==='unk')return st==='onbekend';return true;
 }
 function esc(s){return s?String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'):''; }
+function safeUrl(u){return u&&!/^https?:\/\//i.test(u)?'https://'+u:u||'';}
 function render(){
   var q=document.getElementById('q').value.toLowerCase();
   var fcat=document.getElementById('fcat').value;var fi=document.getElementById('fi').value;
@@ -273,7 +274,7 @@ function render(){
   if(!rows.length){document.getElementById('list').innerHTML='<div class="empty">Geen praktijken gevonden</div>';return;}
   document.getElementById('list').innerHTML=rows.map(function(r){
     var c=cls(r);
-    var naamHtml=r.website?'<a class="card-naam-link" href="'+esc(r.website)+'" target="_blank" onclick="event.stopPropagation()">'+esc(r.naam)+'</a>':'<span class="card-naam">'+esc(r.naam)+'</span>';
+    var naamHtml=r.website?'<a class="card-naam-link" href="'+safeUrl(r.website)+'" target="_blank" onclick="event.stopPropagation()">'+esc(r.naam)+'</a>':'<span class="card-naam">'+esc(r.naam)+'</span>';
     var intakeHtml='<div class="wt-row"><span class="wt-label">Intake</span><span class="badge '+c+'">'+intakeLbl(r)+'</span></div>';
     var tot=behandelTotaal(r);
     var bHtml=tot?'<div class="wt-row"><span class="wt-label">Behandeling</span><span class="badge badge-behandel">'+tot+'</span></div>':'';
@@ -289,7 +290,7 @@ function render(){
       +'<div class="tab-panel" style="display:none" data-tab="alg"><div class="tab-info">'
       +(r.telefoon?'<span class="ti-lbl">Telefoon</span><a class="ti-val" href="tel:'+esc(r.telefoon)+'">'+esc(r.telefoon)+'</a>':'')
       +(r.email?'<span class="ti-lbl">E-mail</span><a class="ti-val" href="mailto:'+esc(r.email)+'">'+esc(r.email)+'</a>':'')
-      +(r.website?'<span class="ti-lbl">Website</span><a class="ti-val" href="'+esc(r.website)+'" target="_blank">'+esc(r.website)+'</a>':'')
+      +(r.website?'<span class="ti-lbl">Website</span><a class="ti-val" href="'+safeUrl(r.website)+'" target="_blank">'+esc(r.website)+'</a>':'')
       +((r.locatie_norm||r.locatie)?'<span class="ti-lbl">Locatie</span><span class="ti-val">'+esc(r.locatie_norm||r.locatie)+'</span>':'')
       +(r.doelgroep?'<span class="ti-lbl">Doelgroep</span><span class="ti-val">'+esc(r.doelgroep)+'</span>':'')
       +((r.cats&&r.cats.length)?'<span class="ti-lbl">Specialisaties</span><span class="ti-val">'+r.cats.map(function(k){return CAT_LABELS[k]||k;}).join(', ')+'</span>':'')
