@@ -17,7 +17,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Lifecoaching. Wachttijdconcept (GGZ Treeknorm) niet van toepassing.",
-    "bron": ""
+    "bron": "",
+    "doelgroep": null
   },
   {
     "row_id": "1",
@@ -38,7 +39,8 @@
     "aanmeld_weken": "2",
     "behandel_weken": null,
     "wachttijd": "Geen wachtlijst; intake binnen 2 weken mogelijk",
-    "bron": "https://www.willemienjobsen.nl/praktische-informatie"
+    "bron": "https://www.willemienjobsen.nl/praktische-informatie",
+    "doelgroep": null
   },
   {
     "row_id": "2",
@@ -60,7 +62,8 @@
     "aanmeld_weken": "4",
     "behandel_weken": "3",
     "wachttijd": "4 weken aanmeldwachttijd (intake); 3 weken behandelwachttijd; gelijk voor alle zorgverzekeraars (Den Bosch vestiging, gecontroleerd juli 2026)",
-    "bron": "https://www.hsk.nl/wachttijden"
+    "bron": "https://www.hsk.nl/wachttijden",
+    "doelgroep": null
   },
   {
     "row_id": "3",
@@ -82,7 +85,8 @@
     "aanmeld_weken": "30-34",
     "behandel_weken": null,
     "wachttijd": "Aanmeldwachttijd locatie Oss (bijgewerkt 25-06-2026):\n• Achmea / VGZ: 30 weken\n• CZ: 34 weken\n\nGB-GGZ enkelvoudige problematiek.",
-    "bron": "https://lambertushof.nl/wachttijden/"
+    "bron": "https://lambertushof.nl/wachttijden/",
+    "doelgroep": null
   },
   {
     "row_id": "4",
@@ -104,7 +108,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Judith Damsté, psycholoog Zaltbommel (NVPPA lid). Vergoeding via aanvullende verzekering, niet basisverzekering GGZ. Wachttijdconcept niet van toepassing.",
-    "bron": "https://judithdamste.nl/vergoedingen/"
+    "bron": "https://judithdamste.nl/vergoedingen/",
+    "doelgroep": null
   },
   {
     "row_id": "5",
@@ -125,7 +130,8 @@
     "aanmeld_weken": "35",
     "behandel_weken": null,
     "wachttijd": "Aanmeldwachttijd Den Bosch: 35 weken (alle stoornissen, volwassenen). Bijgewerkt 01-07-2026",
-    "bron": "https://www.max-ernst.nl/over-max-ernst-ggz/wachttijden/"
+    "bron": "https://www.max-ernst.nl/over-max-ernst-ggz/wachttijden/",
+    "doelgroep": null
   },
   {
     "row_id": "6",
@@ -146,7 +152,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Aanmeldstop voor volwassenen (BGGZ en SGGZ); geen wachttijd in weken vermeld (vermeld 13-03-2026)",
-    "bron": "https://www.praktijkhaga-dijkstra.nl/contact/wachttijden"
+    "bron": "https://www.praktijkhaga-dijkstra.nl/contact/wachttijden",
+    "doelgroep": null
   },
   {
     "row_id": "7",
@@ -167,7 +174,8 @@
     "aanmeld_weken": "20",
     "behandel_weken": null,
     "wachttijd": "20 weken voor intake (Den Bosch); bijgewerkt 10 juni 2026",
-    "bron": "https://www.edb-online.nl/praktijkinfo/wachttijd"
+    "bron": "https://www.edb-online.nl/praktijkinfo/wachttijd",
+    "doelgroep": null
   },
   {
     "row_id": "8",
@@ -190,7 +198,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Aanmeldwachttijd volwassenen: +/- 4 maanden (~16 weken). Relatietherapie: augustus; seksuologie: september (actueel juli 2026)",
-    "bron": "https://talkpsychologenpraktijk.nl/wachttijden/"
+    "bron": "https://talkpsychologenpraktijk.nl/wachttijden/",
+    "doelgroep": null
   },
   {
     "row_id": "9",
@@ -212,7 +221,8 @@
     "aanmeld_weken": "10",
     "behandel_weken": null,
     "wachttijd": "Actuele wachttijden (bijgewerkt 21 april 2026):\n• Volwassenen: 6 weken\n• Kind & Jeugd: 8 weken\n• ADHD diagnostiek volwassenen: 16 weken",
-    "bron": "https://www.ypse.nl"
+    "bron": "https://www.ypse.nl",
+    "doelgroep": "jeugd"
   },
   {
     "row_id": "10",
@@ -233,7 +243,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Cliëntenstop voor intake; geen wachttijd voor behandeling",
-    "bron": "https://www.mentaalbeter.nl/praktijken/rosmalen"
+    "bron": "https://www.mentaalbeter.nl/praktijken/rosmalen",
+    "doelgroep": null
   },
   {
     "row_id": "11",
@@ -254,7 +265,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Alle behandelaars: momenteel geen mogelijkheid voor nieuwe aanmeldingen (Schmeitz, Sikkema, Laan). Bijgewerkt 04-07-2026.",
-    "bron": "https://psychologenpraktijkvught.nl/PPV/index.php"
+    "bron": "https://psychologenpraktijkvught.nl/PPV/index.php",
+    "doelgroep": null
   },
   {
     "row_id": "12",
@@ -275,7 +287,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Aanmeldstop per 1 mei 2026; geen wachttijd in weken vermeld",
-    "bron": "https://www.vermeerenpsychologie.nl/wachttijd"
+    "bron": "https://www.vermeerenpsychologie.nl/wachttijd",
+    "doelgroep": null
   },
   {
     "row_id": "13",
@@ -296,7 +309,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Praktijk neemt sinds 1 april 2026 geen nieuwe cliënten meer aan; sluit per 30 september 2026 wegens pensionering",
-    "bron": "https://www.psychologenpraktijkrosmalen.nl"
+    "bron": "https://www.psychologenpraktijkrosmalen.nl",
+    "doelgroep": null
   },
   {
     "row_id": "14",
@@ -318,7 +332,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Praktijk sluit 1 november 2026. Aanmelden niet meer mogelijk (per 04-07-2026).",
-    "bron": "https://ppquanta.nl/"
+    "bron": "https://ppquanta.nl/",
+    "doelgroep": null
   },
   {
     "row_id": "15",
@@ -339,7 +354,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Aanmeldstop wegens wachttijd van meer dan 16 weken",
-    "bron": "https://martine-van-iersel.webnode.nl"
+    "bron": "https://martine-van-iersel.webnode.nl",
+    "doelgroep": null
   },
   {
     "row_id": "16",
@@ -360,7 +376,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Onbekend (opnieuw gecontroleerd, ook contactpagina): geen enkele vermelding van wachttijd of wachtlijst op de website",
-    "bron": "https://www.vanrooijpsychologie.nl"
+    "bron": "https://www.vanrooijpsychologie.nl",
+    "doelgroep": null
   },
   {
     "row_id": "17",
@@ -382,7 +399,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Aanmeldstop: geen ruimte voor nieuwe cliënten (bijgewerkt 16-06-2026)",
-    "bron": "https://www.smulderspsychologie.nl/wachttijden"
+    "bron": "https://www.smulderspsychologie.nl/wachttijden",
+    "doelgroep": null
   },
   {
     "row_id": "18",
@@ -403,7 +421,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Vanwege opgelopen wachttijd momenteel aanmeldstop; geen wachttijd in weken vermeld; laatst geüpdatet op 24-11-2025",
-    "bron": "https://www.psychologenpraktijkbroeren.nl"
+    "bron": "https://www.psychologenpraktijkbroeren.nl",
+    "doelgroep": null
   },
   {
     "row_id": "19",
@@ -424,7 +443,8 @@
     "aanmeld_weken": "3",
     "behandel_weken": null,
     "wachttijd": "Wachttijd circa 3 weken",
-    "bron": "https://www.an-nisa.nl"
+    "bron": "https://www.an-nisa.nl",
+    "doelgroep": null
   },
   {
     "row_id": "20",
@@ -445,7 +465,8 @@
     "aanmeld_weken": "11",
     "behandel_weken": null,
     "wachttijd": "Wachttijd 10-12 weken",
-    "bron": "https://praktijkdepastorie.nl/de-praktijk/wachttijd"
+    "bron": "https://praktijkdepastorie.nl/de-praktijk/wachttijd",
+    "doelgroep": null
   },
   {
     "row_id": "21",
@@ -466,7 +487,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Aanmeldstop; wachttijd is te lang (tekst vermeldt 'momenteel, februari'); pagina laatst gewijzigd 18-02-2025, mogelijk verouderd",
-    "bron": "https://www.bureau-broeders.nl"
+    "bron": "https://www.bureau-broeders.nl",
+    "doelgroep": null
   },
   {
     "row_id": "22",
@@ -487,7 +509,8 @@
     "aanmeld_weken": "15",
     "behandel_weken": null,
     "wachttijd": "Wachttijd: 15 weken (per 24-03-2026)",
-    "bron": "https://www.vanderaalstpsychologie.nl/"
+    "bron": "https://www.vanderaalstpsychologie.nl/",
+    "doelgroep": null
   },
   {
     "row_id": "23",
@@ -508,7 +531,8 @@
     "aanmeld_weken": "17",
     "behandel_weken": null,
     "wachttijd": "Circa 4 maanden; bijgewerkt per 10 juni 2026",
-    "bron": "https://www.psychologieberlicum.org/2024/02/08/actuele-wachttijd-2/"
+    "bron": "https://www.psychologieberlicum.org/2024/02/08/actuele-wachttijd-2/",
+    "doelgroep": null
   },
   {
     "row_id": "24",
@@ -529,7 +553,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Praktijk verhuist naar Driebergen (juli 2026), niet langer in regio Den Bosch. Alleen verwijzingen in overleg (per 09-07-2026).",
-    "bron": "https://www.psychotherapiepraktijk-scheffer.nl/praktische-informatie/"
+    "bron": "https://www.psychotherapiepraktijk-scheffer.nl/praktische-informatie/",
+    "doelgroep": null
   },
   {
     "row_id": "25",
@@ -551,7 +576,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Aanmelding momenteel niet mogelijk (cliëntenstop)",
-    "bron": "https://www.yellowpsychotherapie.com/psychologische-behandeling/aanmelding-en-wachttijden/"
+    "bron": "https://www.yellowpsychotherapie.com/psychologische-behandeling/aanmelding-en-wachttijden/",
+    "doelgroep": null
   },
   {
     "row_id": "26",
@@ -572,7 +598,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Aanmeldstop wegens lange wachttijd, vermeld per 26 mei 2026",
-    "bron": "https://www.demaasoever.nl/aanmelden"
+    "bron": "https://www.demaasoever.nl/aanmelden",
+    "doelgroep": null
   },
   {
     "row_id": "27",
@@ -593,7 +620,8 @@
     "aanmeld_weken": "1",
     "behandel_weken": null,
     "wachttijd": "Geen wachtlijst; aanmeldwachttijd ca. 1,5 week; behandelwachttijd max 1 week aansluitend op intake; niet afhankelijk van zorgverzekeraar; laatste actualisatie 01-01-2026",
-    "bron": "https://www.emdrpsychologenvught.nl"
+    "bron": "https://www.emdrpsychologenvught.nl",
+    "doelgroep": null
   },
   {
     "row_id": "28",
@@ -614,7 +642,8 @@
     "aanmeld_weken": "0",
     "behandel_weken": null,
     "wachttijd": "Geen wachttijd (nvt). Aanmelden mogelijk (27-05-2026 gecontroleerd op website).",
-    "bron": "https://psychologenpraktijk-de-terphove.nl/?page_id=45"
+    "bron": "https://psychologenpraktijk-de-terphove.nl/?page_id=45",
+    "doelgroep": null
   },
   {
     "row_id": "29",
@@ -634,7 +663,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Aanmeldpauze (AANMELDPAUZE) voor GB-GGZ Veghel, volwassenen; geen wachttijd in weken vermeld; pagina bijgewerkt 25-06-2026 (actueel)",
-    "bron": "https://www.lambertushof.nl/wachttijden"
+    "bron": "https://www.lambertushof.nl/wachttijden",
+    "doelgroep": null
   },
   {
     "row_id": "30",
@@ -657,7 +687,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Therapie Eigenkracht B.V. – traumatherapie, systemisch werk, WMO begeleiding (RBCZ). Geen GGZ basisverzekering. Wachttijdconcept niet van toepassing.",
-    "bron": "https://www.therapie-eigenkracht.nl"
+    "bron": "https://www.therapie-eigenkracht.nl",
+    "doelgroep": null
   },
   {
     "row_id": "31",
@@ -677,7 +708,8 @@
     "aanmeld_weken": "11",
     "behandel_weken": null,
     "wachttijd": "Intakegesprek na aanmelding: 10-12 weken; behandeling na intakegesprek: 4-5 weken; bijgewerkt 23 juni 2026",
-    "bron": "https://www.gzpsychologie-coaching.com"
+    "bron": "https://www.gzpsychologie-coaching.com",
+    "doelgroep": null
   },
   {
     "row_id": "32",
@@ -697,7 +729,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Psychologenpraktijk (NIP + NFG/RBCZ). Vergoeding alleen via aanvullende verzekering (NFG-lijst), niet basisverzekering GGZ. Wachttijdconcept niet van toepassing.",
-    "bron": "https://www.mens-factor.com/algemene-voorwaarden-kosten-privacy-en-behandelovereenkomst.html"
+    "bron": "https://www.mens-factor.com/algemene-voorwaarden-kosten-privacy-en-behandelovereenkomst.html",
+    "doelgroep": null
   },
   {
     "row_id": "33",
@@ -718,7 +751,8 @@
     "aanmeld_weken": "26",
     "behandel_weken": null,
     "wachttijd": "6+ maanden (circa 26+ weken) voor alle locaties (Rotterdam, Breda, Veldhoven)",
-    "bron": "https://ggzlichtinzicht.nl/wachttijden/"
+    "bron": "https://ggzlichtinzicht.nl/wachttijden/",
+    "doelgroep": null
   },
   {
     "row_id": "34",
@@ -741,7 +775,8 @@
     "aanmeld_weken": "13",
     "behandel_weken": null,
     "wachttijd": "Wachttijd 2-4 maanden voor aanmelding met verwijsbrief huisarts; los onverzekerd consult (Single Session Therapy) binnen 2-4 weken te boeken",
-    "bron": "https://www.noor-spiegeloog.nl/contact"
+    "bron": "https://www.noor-spiegeloog.nl/contact",
+    "doelgroep": null
   },
   {
     "row_id": "35",
@@ -762,7 +797,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Geen wachtlijst; nieuwe cliënten kunnen vaak binnen enkele dagen starten",
-    "bron": "https://www.christydonkers.nl"
+    "bron": "https://www.christydonkers.nl",
+    "doelgroep": null
   },
   {
     "row_id": "36",
@@ -784,7 +820,8 @@
     "aanmeld_weken": "39",
     "behandel_weken": null,
     "wachttijd": "Wachttijden per regioteam (bijgewerkt juni 2026) — aanmeld / behandel in weken:\n\n• Regioteam Den Bosch binnenstad: 39 / 9\n• Regioteam Den Bosch Noord-West: 52 / 9\n• Regioteam Den Bosch Zuid-Oost: 48 / 6\n• Regioteam Vught e.o.: >52 / 6\n• Regioteam Meierij: >52 / 6\n• Regioteam Bommelerwaard: >52 / —\n• Psychotraumacentrum: 17 / 11\n• Polikliniek ouderen: 7 / 3\n• Polikliniek POP: 5 / 2\n• (Trans)Forensische FACT: 6 / 5\n• Forensische kliniek: 4 / 1\n\nIn een crisissituatie is er geen wachttijd.",
-    "bron": "https://www.reiniervanarkel.nl/clienten/van-aanmelding-tot-start-behandeling"
+    "bron": "https://www.reiniervanarkel.nl/clienten/van-aanmelding-tot-start-behandeling",
+    "doelgroep": "ouderen"
   },
   {
     "row_id": "37",
@@ -806,7 +843,8 @@
     "aanmeld_weken": "60",
     "behandel_weken": null,
     "wachttijd": "Geschatte wachttijd voor intake Engelen/Den Bosch: 60+ weken (peildatum 09-04-2026)",
-    "bron": "https://psyhuijs.nl/wachttijd-engelen/"
+    "bron": "https://psyhuijs.nl/wachttijd-engelen/",
+    "doelgroep": null
   },
   {
     "row_id": "38",
@@ -828,7 +866,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Wachttijden niet gepubliceerd op website; wachttijd is voor iedereen verschillend, opvragen via Informatieservice 088 357 13 57",
-    "bron": "https://www.psyq.nl/wachttijden"
+    "bron": "https://www.psyq.nl/wachttijden",
+    "doelgroep": null
   },
   {
     "row_id": "39",
@@ -850,7 +889,8 @@
     "aanmeld_weken": "7",
     "behandel_weken": null,
     "wachttijd": "Wachttijd screening 4 weken; totale wachttijd tot behandeling 10 weken ('s-Hertogenbosch)",
-    "bron": "https://innova-ggz.nl/meer-informatie/wachttijden"
+    "bron": "https://innova-ggz.nl/meer-informatie/wachttijden",
+    "doelgroep": null
   },
   {
     "row_id": "40",
@@ -871,7 +911,8 @@
     "aanmeld_weken": "16",
     "behandel_weken": null,
     "wachttijd": "Behandelwachttijden Den Bosch na intake (per 1 juni 2026):\n\n• GIT-PD: 16 weken na intake\n• MBT jong volwassenen: 20 weken na intake\n• Schematherapie groep cluster C: 21 weken na intake\n• Schematherapie individueel (50 sessies): 23 weken na intake\n• PDT ambulant individueel (DIT): 30 weken na intake\n• Schematherapie groep jong volwassenen: 30 weken na intake\n• Schematherapie groep cluster B: 30 weken na intake\n\nGeen aparte aanmeldwachttijd gepubliceerd. Bovenstaande wachttijden gelden ná de intake.",
-    "bron": "https://www.deviersprong.nl/wachttijden"
+    "bron": "https://www.deviersprong.nl/wachttijden",
+    "doelgroep": null
   },
   {
     "row_id": "41",
@@ -893,7 +934,8 @@
     "aanmeld_weken": "32",
     "behandel_weken": null,
     "wachttijd": "Centrum Adolescentenpsychiatrie (CAP): aanmeldwachttijd gemiddeld 24 weken, actuele aanmeldwachttijd 32 weken; behandelwachttijd afhankelijk van het type behandeling, bepaald na intake; bijgewerkt 1 juni 2026",
-    "bron": "https://www.herlaarhof.nl/kinderen-en-jongeren/wachttijden/"
+    "bron": "https://www.herlaarhof.nl/kinderen-en-jongeren/wachttijden/",
+    "doelgroep": null
   },
   {
     "row_id": "42",
@@ -914,7 +956,8 @@
     "aanmeld_weken": "14",
     "behandel_weken": null,
     "wachttijd": "Vestiging Rosmalen, Stationsplein, jongeren tot 23 jaar: wachttijd 13-15 weken (sortering op middenwaarde 14); peildatum 22 juni 2026, gepubliceerd als PDF-document (niet als leesbare HTML-tekst op de pagina zelf)",
-    "bron": "https://youz.nl/wachttijden"
+    "bron": "https://youz.nl/wachttijden",
+    "doelgroep": "jeugd"
   },
   {
     "row_id": "43",
@@ -936,7 +979,8 @@
     "aanmeld_weken": "27",
     "behandel_weken": null,
     "wachttijd": "Aanmeldwachttijd 27 weken; bijgewerkt 1 juni 2026",
-    "bron": "https://www.hemisfeer.nl"
+    "bron": "https://www.hemisfeer.nl",
+    "doelgroep": null
   },
   {
     "row_id": "44",
@@ -958,7 +1002,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Tijdelijke aanmeldstop voor alle zorgverzekeraars; geen wachttijd in weken vermeld (pagina bij herhaalde controle eenduidig, geen tegenstrijdige content meer aangetroffen)",
-    "bron": "https://osperon.nl/wachttijden"
+    "bron": "https://osperon.nl/wachttijden",
+    "doelgroep": null
   },
   {
     "row_id": "45",
@@ -979,7 +1024,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Aanmeldstop per 8-6-2026, voor onbepaalde tijd (team Den Bosch Zuidoost)",
-    "bron": "https://buurtzorgt.nl/behandelteam/team-den-bosch-zuidoost/"
+    "bron": "https://buurtzorgt.nl/behandelteam/team-den-bosch-zuidoost/",
+    "doelgroep": null
   },
   {
     "row_id": "46",
@@ -1000,7 +1046,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Aanmeldstop: geen ruimte voor nieuwe aanmeldingen (per 04-07-2026). Aanmeldstop was ingegaan per februari 2026.",
-    "bron": "https://willemshuys.nl/noten"
+    "bron": "https://willemshuys.nl/noten",
+    "doelgroep": null
   },
   {
     "row_id": "47",
@@ -1022,7 +1069,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Wachtlijst gesloten (juni 2026); geen nieuwe aanmeldingen mogelijk, geen wachttijd in weken vermeld",
-    "bron": "https://www.praktijknia.nl"
+    "bron": "https://www.praktijknia.nl",
+    "doelgroep": null
   },
   {
     "row_id": "48",
@@ -1043,7 +1091,8 @@
     "aanmeld_weken": "1",
     "behandel_weken": null,
     "wachttijd": "Geen wachtlijst; eerste afspraak binnen 7 dagen mogelijk (vermeld op homepage)",
-    "bron": "https://www.psychotherapie-steenbeek.nl"
+    "bron": "https://www.psychotherapie-steenbeek.nl",
+    "doelgroep": null
   },
   {
     "row_id": "49",
@@ -1065,7 +1114,8 @@
     "aanmeld_weken": "2",
     "behandel_weken": null,
     "wachttijd": "Intake: binnen 2 weken. Wachttijden dagbehandeling Breda na intake (actueel 2026):\n\nVerslaving:\n• CZ: 20-32 weken\n• VGZ: 32-52 weken\n• Menzis / Achmea / Overige: 16-22 weken\n\nEetstoornis:\n• CZ: 10-24 weken\n• VGZ: 20-32 weken\n• Menzis / Achmea / Overige: 10-20 weken\n\nTrauma:\n• CZ: 20-32 weken\n• VGZ: 32-52 weken\n• Menzis / Achmea / Overige: 10-20 weken\n\nKlinische opname eetstoornis (18+):\n• VGZ: 18-22 weken na intake\n• Overige: 2-6 weken na intake\n\nIndividuele trajecten: 20-32 weken (alle verzekeraars)",
-    "bron": "https://changesggz.nl/wachttijden/"
+    "bron": "https://changesggz.nl/wachttijden/",
+    "doelgroep": null
   },
   {
     "row_id": "50",
@@ -1086,7 +1136,8 @@
     "aanmeld_weken": "42",
     "behandel_weken": null,
     "wachttijd": "Wachttijden per team (update vóór de 10e van elke maand) — aanmeld / behandel in weken:\n\nMentale Gezondheidscentra:\n• Breda: 25 / 5\n• Tilburg: 42 / 5\n• Waalwijk: ~60 / 5\n\nVolwassenen Emotie & Persoon:\n• Breda: 80 / 20\n• Tilburg: >85 / 40\n\nGeen vestiging nabij Den Bosch; regio Tilburg/Breda.",
-    "bron": "https://www.ggzbreburg.nl/over-ggz-breburg/wachttijden"
+    "bron": "https://www.ggzbreburg.nl/over-ggz-breburg/wachttijden",
+    "doelgroep": null
   },
   {
     "row_id": "51",
@@ -1106,7 +1157,8 @@
     "aanmeld_weken": "17",
     "behandel_weken": null,
     "wachttijd": "Aanmeldwachttijd 17 weken, behandelwachttijd 11 weken (rij 'Psychotraumacentrum' op de wachttijdpagina van Reinier van Arkel), geactualiseerd juni 2026, via doorverwijzing vanaf psychotraumacentrumzuidnederland.nl/behandelingen/wachttijden. Let op: build_trauma.py vermeldt adres Bethaniestraat 10 voor Psychotrauma Centrum Nederland, vs. Bethaniestraat 2 voor Reinier van Arkel - ander huisnummer; koppeling is een inferentie op basis van de doorverwijzing, geen bevestigd feit",
-    "bron": "https://www.reiniervanarkel.nl/clienten/van-aanmelding-tot-start-behandeling"
+    "bron": "https://www.reiniervanarkel.nl/clienten/van-aanmelding-tot-start-behandeling",
+    "doelgroep": null
   },
   {
     "row_id": "52",
@@ -1126,7 +1178,8 @@
     "aanmeld_weken": "10",
     "behandel_weken": null,
     "wachttijd": "Wachttijd 10 weken (status augustus 2025 vermeld op de site; mogelijk niet het meest recente cijfer maar enige expliciete vermelding gevonden na herhaalde controle via Chrome)",
-    "bron": "https://www.tcnl.nl/wachttijden"
+    "bron": "https://www.tcnl.nl/wachttijden",
+    "doelgroep": null
   },
   {
     "row_id": "53",
@@ -1146,7 +1199,8 @@
     "aanmeld_weken": "3",
     "behandel_weken": null,
     "wachttijd": "PTSS Behandeling: wachttijd intake 2-4 weken, wachttijd behandeling 2-8 weken (bijgewerkt 09-06-2026); NZA-tabel Trauma- en stressgerelateerde stoornissen: wachttijd intake 4 weken, wachttijd behandeling 10 weken (bijgewerkt 18-06-2026)",
-    "bron": "https://www.psytrec.nl/aanmelden/wachttijden"
+    "bron": "https://www.psytrec.nl/aanmelden/wachttijden",
+    "doelgroep": null
   },
   {
     "row_id": "54",
@@ -1167,7 +1221,8 @@
     "aanmeld_weken": "9",
     "behandel_weken": null,
     "wachttijd": "Geschatte wachttijd 8 tot 10 weken",
-    "bron": "https://www.u-center.nl/waarom-bij-u-center/wachttijden"
+    "bron": "https://www.u-center.nl/waarom-bij-u-center/wachttijden",
+    "doelgroep": null
   },
   {
     "row_id": "55",
@@ -1187,7 +1242,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Aanmeldstop voor individuele behandelingen en diagnostiekaanvragen; geen verwijzingen of wachtlijst-registratie mogelijk op dit moment",
-    "bron": "https://www.centrumvoortransitie.nl/trauma-en-transitie/voor-clienten/"
+    "bron": "https://www.centrumvoortransitie.nl/trauma-en-transitie/voor-clienten/",
+    "doelgroep": null
   },
   {
     "row_id": "56",
@@ -1207,7 +1263,8 @@
     "aanmeld_weken": "2",
     "behandel_weken": null,
     "wachttijd": "Geen wachtlijst; nieuwe cliënten kunnen binnen een paar weken starten (volgens praktijk zelf)",
-    "bron": "https://www.psychotherapiepraktijktruijens.nl/voorstellen"
+    "bron": "https://www.psychotherapiepraktijktruijens.nl/voorstellen",
+    "doelgroep": null
   },
   {
     "row_id": "57",
@@ -1229,7 +1286,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Aanmeldstop bij alle zes behandelaren (Jolanda Poelakker, Elles Bakker, Dorine Heiden, Guido Roelandt, Judith Bovendeerd, Janine Janssen); pagina vermeldt 'laatst gewijzigd op 04-06-2024' - meer dan 2 jaar oud, mogelijk verouderd; bij aanmelding via contactformulier reageert behandelaar binnen ca. 7 dagen",
-    "bron": "https://www.praktijkdevesting.nl"
+    "bron": "https://www.praktijkdevesting.nl",
+    "doelgroep": null
   },
   {
     "row_id": "58",
@@ -1251,7 +1309,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Aanmeldstop; geen nieuwe aanmeldingen mogelijk op dit moment; update 11 april 2026",
-    "bron": "https://www.praktijkkarimi.nl/contact/"
+    "bron": "https://www.praktijkkarimi.nl/contact/",
+    "doelgroep": null
   },
   {
     "row_id": "59",
@@ -1274,7 +1333,8 @@
     "aanmeld_weken": "28",
     "behandel_weken": null,
     "wachttijd": "Wachttijden 's-Hertogenbosch (bijgewerkt 25-02-2026) — aanmeld / behandel in weken:\n\nAmbulandte deeltijdbehandeling (groepstherapie):\n• 2-daagse Eetdeeltijd: 25-30 / 10\n• 2-daagse Schematherapie deeltijd: 25-30 / 25\n• 3-daagse Schematherapie deeltijd: 25-30 / 25\n• 5-daagse Herstelgerichte deeltijd: 25-30 / 8-12\n\nAmbulandte individuele behandeling:\n• Persoonlijkheid, angst, stemming, verslaving, eetstoornis: 25-30 / 6-8\n\nLet op: telefonische screening vóór de intake duurt al 2-6 weken.",
-    "bron": "https://www.ggzmomentum.nl/actuele-wachttijden/"
+    "bron": "https://www.ggzmomentum.nl/actuele-wachttijden/",
+    "doelgroep": null
   },
   {
     "row_id": "60",
@@ -1296,7 +1356,8 @@
     "aanmeld_weken": "5",
     "behandel_weken": null,
     "wachttijd": "Intake gemiddeld 5 weken na ontvangst verwijsbrief (soms 2-3 weken); start behandeling 3-12+ weken na intake afhankelijk van gemeente/verzekeraar",
-    "bron": "https://www.yeswecanclinics.nl/actuele-wachttijden/actuele-wachttijden-kliniek-hilvarenbeek"
+    "bron": "https://www.yeswecanclinics.nl/actuele-wachttijden/actuele-wachttijden-kliniek-hilvarenbeek",
+    "doelgroep": null
   },
   {
     "row_id": "61",
@@ -1316,7 +1377,8 @@
     "aanmeld_weken": "16",
     "behandel_weken": null,
     "wachttijd": "Totale wachttijd tot kennismakingsgesprek: circa 4 maanden (16 weken); triage binnen 2 weken na aanmelding; bijgewerkt juni 2026",
-    "bron": "https://www.levuraggz.nl/wachttijden"
+    "bron": "https://www.levuraggz.nl/wachttijden",
+    "doelgroep": null
   },
   {
     "row_id": "62",
@@ -1337,7 +1399,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Geen wachttijd van toepassing; landelijke 24/7 hulplijn (0800-0188, gratis en anoniem), direct telefonisch of via chat bereikbaar, geen wachtlijst-concept",
-    "bron": "https://www.centrumseksueelgeweld.nl"
+    "bron": "https://www.centrumseksueelgeweld.nl",
+    "doelgroep": null
   },
   {
     "row_id": "63",
@@ -1357,7 +1420,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Geen wachttijd van toepassing; stichting biedt lotgenotencontact, eenmalig advies, webinars en een WhatsApp-kanaal - geen klinische behandeling met wachtlijst",
-    "bron": "https://www.seksueelmisbruik.nl"
+    "bron": "https://www.seksueelmisbruik.nl",
+    "doelgroep": null
   },
   {
     "row_id": "64",
@@ -1379,7 +1443,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Geen wachttijd van toepassing; hulplijn/coördinatieprogramma voor ontheemde Oekraïners. Eigen FAQ stelt expliciet: 'Wij hebben zelf geen wachtlijst' - organisatie verwijst door naar andere zorgaanbieders (waarvan wachttijd per organisatie varieert) en biedt zelf alleen kortdurende psychosociale consulten",
-    "bron": "https://empatiaprogram.nl/nl/looking-for-help"
+    "bron": "https://empatiaprogram.nl/nl/looking-for-help",
+    "doelgroep": null
   },
   {
     "row_id": "65",
@@ -1399,7 +1464,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Beeldend therapeut / traumatherapeut (NVPA). Geen BIG-psycholoog, geen GGZ-basisverzekering. Wachttijdconcept niet van toepassing.",
-    "bron": "https://www.veroniquevanderwoude.nl"
+    "bron": "https://www.veroniquevanderwoude.nl",
+    "doelgroep": null
   },
   {
     "row_id": "66",
@@ -1420,7 +1486,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Geen wachtlijst; homepage stelt expliciet: 'GROEN is de jeugdhulp, zonder wachtlijsten (ja, dat kan wel!)'",
-    "bron": "https://www.expertisecentrumgroen.nl"
+    "bron": "https://www.expertisecentrumgroen.nl",
+    "doelgroep": null
   },
   {
     "row_id": "67",
@@ -1442,7 +1509,8 @@
     "aanmeld_weken": "16-20",
     "behandel_weken": null,
     "wachttijd": "Wachttijd intakegesprek 16-20 weken (bijgewerkt 04-07-2026)",
-    "bron": "https://saleemggz.nl/"
+    "bron": "https://saleemggz.nl/",
+    "doelgroep": null
   },
   {
     "row_id": "68",
@@ -1464,7 +1532,8 @@
     "aanmeld_weken": "10",
     "behandel_weken": null,
     "wachttijd": "Aanmeldwachttijd (tot eerste intakegesprek): 10 weken; behandelwachttijd: in principe geen wachttijd na intake; datum laatste actualisatie mei 2026",
-    "bron": "https://www.walboomerspsychologie.nl/wachttijden"
+    "bron": "https://www.walboomerspsychologie.nl/wachttijden",
+    "doelgroep": null
   },
   {
     "row_id": "69",
@@ -1485,7 +1554,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Aanmeldstop wegens wachttijd langer dan drie maanden; pagina vermeldt tegelijkertijd doelcijfers van 4 weken (intake) en 10 weken (psychotherapietraject) - dit zijn streefwaarden die momenteel niet gehaald worden door de aanmeldstop",
-    "bron": "https://www.debuitenpsychotherapeut.nl/contact"
+    "bron": "https://www.debuitenpsychotherapeut.nl/contact",
+    "doelgroep": null
   },
   {
     "row_id": "70",
@@ -1505,7 +1575,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Eigen website (incl. aanmeldpagina) gecontroleerd: geen wachttijd/wachtlijst vermeld; telefonisch bereikbaar op werkdagen 09.00-17.00 uur voor (zorgwekkende) meldingen",
-    "bron": "https://www.cvtb.nl"
+    "bron": "https://www.cvtb.nl",
+    "doelgroep": null
   },
   {
     "row_id": "71",
@@ -1525,7 +1596,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Landelijk/regionaal meld- en adviespunt, telefonisch bereikbaar; geen wachttijd-concept van toepassing",
-    "bron": "https://www.veiligthuisoostbrabant.nl"
+    "bron": "https://www.veiligthuisoostbrabant.nl",
+    "doelgroep": null
   },
   {
     "row_id": "72",
@@ -1545,7 +1617,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Informatie-/adviesloket of vrijwillige ondersteuning; geen individuele behandeling met wachttijd (op basis van de aard van de dienst; website niet individueel gecontroleerd)",
-    "bron": "https://www.vughtbeweegt.nl"
+    "bron": "https://www.vughtbeweegt.nl",
+    "doelgroep": null
   },
   {
     "row_id": "73",
@@ -1565,7 +1638,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Informatie-/adviesloket of vrijwillige ondersteuning; geen individuele behandeling met wachttijd (op basis van de aard van de dienst; website niet individueel gecontroleerd)",
-    "bron": "https://www.stichtingdeschroef.nl"
+    "bron": "https://www.stichtingdeschroef.nl",
+    "doelgroep": null
   },
   {
     "row_id": "74",
@@ -1585,7 +1659,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Informatie-/adviesloket of vrijwillige ondersteuning; geen individuele behandeling met wachttijd (op basis van de aard van de dienst; website niet individueel gecontroleerd)",
-    "bron": "https://www.bsbboxtel.nl"
+    "bron": "https://www.bsbboxtel.nl",
+    "doelgroep": null
   },
   {
     "row_id": "75",
@@ -1605,7 +1680,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Maatschappelijk werk/laagdrempelige ondersteuning, vergelijkbaar met andere onderzochte aanbieders in deze categorie waar geen wachttijd werd gevonden; website niet individueel gecontroleerd",
-    "bron": "https://www.welzijnbommelerwaard.nl/welzijn-zaltbommel-en-spel"
+    "bron": "https://www.welzijnbommelerwaard.nl/welzijn-zaltbommel-en-spel",
+    "doelgroep": null
   },
   {
     "row_id": "76",
@@ -1625,7 +1701,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Maatschappelijk werk/laagdrempelige ondersteuning, vergelijkbaar met andere onderzochte aanbieders in deze categorie waar geen wachttijd werd gevonden; website niet individueel gecontroleerd",
-    "bron": "https://www.welzijnbommelerwaard.nl/team-onsmaasdriel"
+    "bron": "https://www.welzijnbommelerwaard.nl/team-onsmaasdriel",
+    "doelgroep": null
   },
   {
     "row_id": "77",
@@ -1645,7 +1722,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Informatie-/adviesloket of vrijwillige ondersteuning; geen individuele behandeling met wachttijd (op basis van de aard van de dienst; website niet individueel gecontroleerd)",
-    "bron": "https://www.stichtingloods.nl"
+    "bron": "https://www.stichtingloods.nl",
+    "doelgroep": null
   },
   {
     "row_id": "78",
@@ -1665,7 +1743,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Maatschappelijk werk/laagdrempelige ondersteuning, vergelijkbaar met andere onderzochte aanbieders in deze categorie waar geen wachttijd werd gevonden; website niet individueel gecontroleerd",
-    "bron": "https://www.jeroenboschhuisartsen.nl/leefstijl/welzijnoprecept"
+    "bron": "https://www.jeroenboschhuisartsen.nl/leefstijl/welzijnoprecept",
+    "doelgroep": null
   },
   {
     "row_id": "79",
@@ -1689,7 +1768,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Cursusaanbod/lotgenotencontact/herstelacademie met doorlopende of open inschrijving; geen wachttijd-concept",
-    "bron": "https://www.zelfhulpdenbosch.nl"
+    "bron": "https://www.zelfhulpdenbosch.nl",
+    "doelgroep": null
   },
   {
     "row_id": "80",
@@ -1709,7 +1789,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Cursusaanbod/lotgenotencontact/herstelacademie met doorlopende of open inschrijving; geen wachttijd-concept",
-    "bron": "https://www.doorenvoor.nl/activiteiten"
+    "bron": "https://www.doorenvoor.nl/activiteiten",
+    "doelgroep": null
   },
   {
     "row_id": "81",
@@ -1729,7 +1810,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Cursusaanbod/lotgenotencontact/herstelacademie met doorlopende of open inschrijving; geen wachttijd-concept",
-    "bron": "https://www.reiniervanarkel.nl/teams-en-locaties/herstelacademie-de-stijl"
+    "bron": "https://www.reiniervanarkel.nl/teams-en-locaties/herstelacademie-de-stijl",
+    "doelgroep": null
   },
   {
     "row_id": "82",
@@ -1749,7 +1831,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Cursusaanbod/lotgenotencontact/herstelacademie met doorlopende of open inschrijving; geen wachttijd-concept",
-    "bron": "https://www.reiniervanarkel.nl/teams-en-locaties/herstelacademie-de-stenen-hut"
+    "bron": "https://www.reiniervanarkel.nl/teams-en-locaties/herstelacademie-de-stenen-hut",
+    "doelgroep": null
   },
   {
     "row_id": "83",
@@ -1769,7 +1852,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Cursusaanbod/lotgenotencontact/herstelacademie met doorlopende of open inschrijving; geen wachttijd-concept",
-    "bron": "https://www.reiniervanarkel.nl/teams-en-locaties/herstelacademie-bommelerwaard"
+    "bron": "https://www.reiniervanarkel.nl/teams-en-locaties/herstelacademie-bommelerwaard",
+    "doelgroep": null
   },
   {
     "row_id": "84",
@@ -1789,7 +1873,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Maatschappelijk werk/laagdrempelige ondersteuning, vergelijkbaar met andere onderzochte aanbieders in deze categorie waar geen wachttijd werd gevonden; website niet individueel gecontroleerd",
-    "bron": "https://www.humanitas.nl/afdeling/denbosch"
+    "bron": "https://www.humanitas.nl/afdeling/denbosch",
+    "doelgroep": null
   },
   {
     "row_id": "85",
@@ -1809,7 +1894,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Maatschappelijk werk/laagdrempelige ondersteuning, vergelijkbaar met andere onderzochte aanbieders in deze categorie waar geen wachttijd werd gevonden; website niet individueel gecontroleerd",
-    "bron": "https://www.humanitas.nl/afdeling/midden-brabant"
+    "bron": "https://www.humanitas.nl/afdeling/midden-brabant",
+    "doelgroep": null
   },
   {
     "row_id": "86",
@@ -1830,7 +1916,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Informatie-/adviesloket of vrijwillige ondersteuning; geen individuele behandeling met wachttijd (op basis van de aard van de dienst; website niet individueel gecontroleerd)",
-    "bron": "https://www.meedemeentgroep.nl"
+    "bron": "https://www.meedemeentgroep.nl",
+    "doelgroep": null
   },
   {
     "row_id": "87",
@@ -1850,7 +1937,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Informatie-/adviesloket of vrijwillige ondersteuning; geen individuele behandeling met wachttijd (op basis van de aard van de dienst; website niet individueel gecontroleerd)",
-    "bron": "https://www.kijkopkoo.nl"
+    "bron": "https://www.kijkopkoo.nl",
+    "doelgroep": null
   },
   {
     "row_id": "88",
@@ -1870,7 +1958,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Eigen website gecontroleerd: geen wachttijd vermeld; ondersteuning is gratis en telefonisch/per mail bereikbaar, 24/7 crisisdienst beschikbaar",
-    "bron": "https://www.farent.nl"
+    "bron": "https://www.farent.nl",
+    "doelgroep": null
   },
   {
     "row_id": "89",
@@ -1890,7 +1979,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Maatschappelijk werk/laagdrempelige ondersteuning, vergelijkbaar met andere onderzochte aanbieders in deze categorie waar geen wachttijd werd gevonden; website niet individueel gecontroleerd",
-    "bron": "https://www.bintwelzijn.nl"
+    "bron": "https://www.bintwelzijn.nl",
+    "doelgroep": null
   },
   {
     "row_id": "90",
@@ -1910,7 +2000,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Informatie-/adviesloket of vrijwillige ondersteuning; geen individuele behandeling met wachttijd (op basis van de aard van de dienst; website niet individueel gecontroleerd)",
-    "bron": "https://www.wegwijsplus.vught.nl"
+    "bron": "https://www.wegwijsplus.vught.nl",
+    "doelgroep": null
   },
   {
     "row_id": "91",
@@ -1930,7 +2021,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Informatie-/adviesloket of vrijwillige ondersteuning; geen individuele behandeling met wachttijd (op basis van de aard van de dienst; website niet individueel gecontroleerd)",
-    "bron": "https://www.boxtel.nl/wegwijs"
+    "bron": "https://www.boxtel.nl/wegwijs",
+    "doelgroep": null
   },
   {
     "row_id": "92",
@@ -1950,7 +2042,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Eigen website gecontroleerd: geen wachttijd vermeld; adviespunt telefonisch bereikbaar, aanbod per woonplaats",
-    "bron": "https://www.contourdetwern.nl"
+    "bron": "https://www.contourdetwern.nl",
+    "doelgroep": null
   },
   {
     "row_id": "93",
@@ -1970,7 +2063,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Santé Partners is een thuiszorg- en verpleegorganisatie (wijkverpleging, wonen), geen GGZ-aanbieder. Wachttijdconcept niet van toepassing.",
-    "bron": "https://www.santepartners.nl/"
+    "bron": "https://www.santepartners.nl/",
+    "doelgroep": null
   },
   {
     "row_id": "94",
@@ -1990,7 +2084,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Eigen website gecontroleerd: geen wachttijd vermeld; bereikbaar via wijkwinkels/spreekuren",
-    "bron": "https://www.bijeenheusden.nl"
+    "bron": "https://www.bijeenheusden.nl",
+    "doelgroep": null
   },
   {
     "row_id": "95",
@@ -2015,7 +2110,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Cursusaanbod/lotgenotencontact/herstelacademie met doorlopende of open inschrijving; geen wachttijd-concept",
-    "bron": "https://www.regionaaltrainingscentrum.nl"
+    "bron": "https://www.regionaaltrainingscentrum.nl",
+    "doelgroep": null
   },
   {
     "row_id": "96",
@@ -2035,7 +2131,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Informatie-/adviesloket of vrijwillige ondersteuning; geen individuele behandeling met wachttijd (op basis van de aard van de dienst; website niet individueel gecontroleerd)",
-    "bron": "https://www.werkcentrumnoordoostbrabant.nl"
+    "bron": "https://www.werkcentrumnoordoostbrabant.nl",
+    "doelgroep": null
   },
   {
     "row_id": "97",
@@ -2055,7 +2152,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Informatie-/adviesloket of vrijwillige ondersteuning; geen individuele behandeling met wachttijd (op basis van de aard van de dienst; website niet individueel gecontroleerd)",
-    "bron": "https://www.centrumchronischziekenwerk.nl"
+    "bron": "https://www.centrumchronischziekenwerk.nl",
+    "doelgroep": null
   },
   {
     "row_id": "98",
@@ -2075,7 +2173,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Informatie-/adviesloket of vrijwillige ondersteuning; geen individuele behandeling met wachttijd (op basis van de aard van de dienst; website niet individueel gecontroleerd)",
-    "bron": "https://www.gemeentealtena.nl/onsaltena"
+    "bron": "https://www.gemeentealtena.nl/onsaltena",
+    "doelgroep": null
   },
   {
     "row_id": "99",
@@ -2095,7 +2194,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Maatschappelijk werk/laagdrempelige ondersteuning, vergelijkbaar met andere onderzochte aanbieders in deze categorie waar geen wachttijd werd gevonden; website niet individueel gecontroleerd",
-    "bron": "https://www.surplus.nl"
+    "bron": "https://www.surplus.nl",
+    "doelgroep": null
   },
   {
     "row_id": "100",
@@ -2117,7 +2217,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Cursusaanbod/lotgenotencontact/herstelacademie met doorlopende of open inschrijving; geen wachttijd-concept",
-    "bron": "https://www.tomdenbosch.nl"
+    "bron": "https://www.tomdenbosch.nl",
+    "doelgroep": null
   },
   {
     "row_id": "101",
@@ -2137,7 +2238,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Maatschappelijk werk/laagdrempelige ondersteuning, vergelijkbaar met andere onderzochte aanbieders in deze categorie waar geen wachttijd werd gevonden; website niet individueel gecontroleerd",
-    "bron": "https://www.humanitas.nl/afdeling/rivierenland"
+    "bron": "https://www.humanitas.nl/afdeling/rivierenland",
+    "doelgroep": null
   },
   {
     "row_id": "102",
@@ -2157,7 +2259,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Maatschappelijk werk/laagdrempelige ondersteuning, vergelijkbaar met andere onderzochte aanbieders in deze categorie waar geen wachttijd werd gevonden; website niet individueel gecontroleerd",
-    "bron": "https://www.welzijnvught.nl"
+    "bron": "https://www.welzijnvught.nl",
+    "doelgroep": null
   },
   {
     "row_id": "103",
@@ -2177,7 +2280,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Informatie-/adviesloket of vrijwillige ondersteuning; geen individuele behandeling met wachttijd (op basis van de aard van de dienst; website niet individueel gecontroleerd)",
-    "bron": "https://www.re-turn.nl"
+    "bron": "https://www.re-turn.nl",
+    "doelgroep": null
   },
   {
     "row_id": "104",
@@ -2197,7 +2301,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Informatie-/adviesloket of vrijwillige ondersteuning; geen individuele behandeling met wachttijd (op basis van de aard van de dienst; website niet individueel gecontroleerd)",
-    "bron": "https://www.rechtswinkeldenbosch.nl"
+    "bron": "https://www.rechtswinkeldenbosch.nl",
+    "doelgroep": null
   },
   {
     "row_id": "105",
@@ -2217,7 +2322,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Informatie-/adviesloket of vrijwillige ondersteuning; geen individuele behandeling met wachttijd (op basis van de aard van de dienst; website niet individueel gecontroleerd)",
-    "bron": "https://www.juridischloket.nl/contact/den-bosch"
+    "bron": "https://www.juridischloket.nl/contact/den-bosch",
+    "doelgroep": null
   },
   {
     "row_id": "106",
@@ -2237,7 +2343,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Informatie-/adviesloket of vrijwillige ondersteuning; geen individuele behandeling met wachttijd (op basis van de aard van de dienst; website niet individueel gecontroleerd)",
-    "bron": "https://www.sint-michielsgestel.nl/wegwijs"
+    "bron": "https://www.sint-michielsgestel.nl/wegwijs",
+    "doelgroep": null
   },
   {
     "row_id": "107",
@@ -2257,7 +2364,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Informatie-/adviesloket of vrijwillige ondersteuning; geen individuele behandeling met wachttijd (op basis van de aard van de dienst; website niet individueel gecontroleerd)",
-    "bron": "https://www.kernkrachtigbommel.nl"
+    "bron": "https://www.kernkrachtigbommel.nl",
+    "doelgroep": null
   },
   {
     "row_id": "108",
@@ -2277,7 +2385,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Informatie-/adviesloket of vrijwillige ondersteuning; geen individuele behandeling met wachttijd (op basis van de aard van de dienst; website niet individueel gecontroleerd)",
-    "bron": "https://www.onsmaasdriel.nl"
+    "bron": "https://www.onsmaasdriel.nl",
+    "doelgroep": null
   },
   {
     "row_id": "109",
@@ -2297,7 +2406,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Informatie-/adviesloket of vrijwillige ondersteuning; geen individuele behandeling met wachttijd (op basis van de aard van de dienst; website niet individueel gecontroleerd)",
-    "bron": "https://www.c-support.nu"
+    "bron": "https://www.c-support.nu",
+    "doelgroep": null
   },
   {
     "row_id": "110",
@@ -2317,7 +2427,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Landelijk/regionaal meld- en adviespunt, telefonisch bereikbaar; geen wachttijd-concept van toepassing",
-    "bron": "https://www.suicidepreventiecentrum.nl/spc-regio-noord-brabant"
+    "bron": "https://www.suicidepreventiecentrum.nl/spc-regio-noord-brabant",
+    "doelgroep": null
   },
   {
     "row_id": "111",
@@ -2337,7 +2448,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Informatie-/adviesloket of vrijwillige ondersteuning; geen individuele behandeling met wachttijd (op basis van de aard van de dienst; website niet individueel gecontroleerd)",
-    "bron": "https://www.hetccv.nl/themas/veilige-woon-leefomgeving/buurtbemiddeling"
+    "bron": "https://www.hetccv.nl/themas/veilige-woon-leefomgeving/buurtbemiddeling",
+    "doelgroep": null
   },
   {
     "row_id": "112",
@@ -2361,7 +2473,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Preventief/informatief aanbod, geen klinische behandeling; geen wachttijd-concept",
-    "bron": "https://www.ypse.nl/preventie"
+    "bron": "https://www.ypse.nl/preventie",
+    "doelgroep": null
   },
   {
     "row_id": "113",
@@ -2382,7 +2495,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Bokscoaching. Wachttijdconcept niet van toepassing.",
-    "bron": ""
+    "bron": "",
+    "doelgroep": null
   },
   {
     "row_id": "114",
@@ -2402,7 +2516,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Stichting – lotgenotencoaching voor gezinnen met kanker. Geen GGZ basisverzekering. Wachttijdconcept niet van toepassing.",
-    "bron": ""
+    "bron": "",
+    "doelgroep": null
   },
   {
     "row_id": "115",
@@ -2422,7 +2537,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Geen wachtlijst",
-    "bron": "https://detroostboom.nl/"
+    "bron": "https://detroostboom.nl/",
+    "doelgroep": null
   },
   {
     "row_id": "116",
@@ -2442,7 +2558,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Rouwbegeleiding en Relax Kids voor kinderen/jongeren. Geen BIG-psycholoog. Wachttijdconcept niet van toepassing.",
-    "bron": ""
+    "bron": "",
+    "doelgroep": "jeugd"
   },
   {
     "row_id": "117",
@@ -2462,7 +2579,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Geen wachtlijst, op korte termijn terecht",
-    "bron": "https://www.vanwissenverlieservaringen.nl/"
+    "bron": "https://www.vanwissenverlieservaringen.nl/",
+    "doelgroep": null
   },
   {
     "row_id": "118",
@@ -2482,7 +2600,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Geen wachtlijst; bij bericht (mail/app/contactformulier) reactie binnen 1-2 werkdagen en vaak binnen een week een kennismakingsgesprek of intake mogelijk",
-    "bron": "https://praktijkziz.nl/veelgestelde-vragen/"
+    "bron": "https://praktijkziz.nl/veelgestelde-vragen/",
+    "doelgroep": null
   },
   {
     "row_id": "119",
@@ -2503,7 +2622,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Coaching. Wachttijdconcept niet van toepassing.",
-    "bron": ""
+    "bron": "",
+    "doelgroep": null
   },
   {
     "row_id": "120",
@@ -2524,7 +2644,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Pastoraal/diaconaal centrum. Wachttijdconcept niet van toepassing.",
-    "bron": ""
+    "bron": "",
+    "doelgroep": null
   },
   {
     "row_id": "121",
@@ -2544,7 +2665,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Rouwbegeleiding. Wachttijdconcept niet van toepassing.",
-    "bron": ""
+    "bron": "",
+    "doelgroep": null
   },
   {
     "row_id": "122",
@@ -2564,7 +2686,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Rouwbegeleiding. Wachttijdconcept niet van toepassing.",
-    "bron": ""
+    "bron": "",
+    "doelgroep": null
   },
   {
     "row_id": "123",
@@ -2584,7 +2707,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Begeleiding na diagnose. Wachttijdconcept niet van toepassing.",
-    "bron": ""
+    "bron": "",
+    "doelgroep": null
   },
   {
     "row_id": "124",
@@ -2604,7 +2728,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Rouwbegeleiding. Wachttijdconcept niet van toepassing.",
-    "bron": ""
+    "bron": "",
+    "doelgroep": null
   },
   {
     "row_id": "125",
@@ -2625,7 +2750,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Coaching/begeleiding. Wachttijdconcept niet van toepassing.",
-    "bron": ""
+    "bron": "",
+    "doelgroep": null
   },
   {
     "row_id": "126",
@@ -2647,7 +2773,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Psychosociale hulp bij zwangerschap/bevalling (NFG, complementaire zorg). Geen GGZ basisverzekering. Wachttijdconcept niet van toepassing.",
-    "bron": "https://www.praktijkwij.nl"
+    "bron": "https://www.praktijkwij.nl",
+    "doelgroep": null
   },
   {
     "row_id": "127",
@@ -2667,7 +2794,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Ondersteuning bij kanker. Wachttijdconcept niet van toepassing.",
-    "bron": ""
+    "bron": "",
+    "doelgroep": null
   },
   {
     "row_id": "128",
@@ -2687,7 +2815,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Geen wachttijd vermeld - praktijk geeft expliciet aan geen wachttijden te hebben en gemiddeld 8 weken sneller te kunnen starten dan reguliere zorg; intake binnen 7 werkdagen",
-    "bron": "https://www.burnoutpreventienederland.nl/"
+    "bron": "https://www.burnoutpreventienederland.nl/",
+    "doelgroep": null
   },
   {
     "row_id": "129",
@@ -2709,7 +2838,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Levensvragen/existentiële begeleiding. Wachttijdconcept niet van toepassing.",
-    "bron": ""
+    "bron": "",
+    "doelgroep": null
   },
   {
     "row_id": "130",
@@ -2729,7 +2859,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "ICF coach / hypnotherapeut. Geen GGZ basisverzekering. Wachttijdconcept niet van toepassing.",
-    "bron": ""
+    "bron": "",
+    "doelgroep": null
   },
   {
     "row_id": "131",
@@ -2750,7 +2881,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Coaching. Wachttijdconcept niet van toepassing.",
-    "bron": ""
+    "bron": "",
+    "doelgroep": null
   },
   {
     "row_id": "132",
@@ -2771,7 +2903,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Coaching/balanstherapie. Wachttijdconcept niet van toepassing.",
-    "bron": ""
+    "bron": "",
+    "doelgroep": null
   },
   {
     "row_id": "133",
@@ -2791,7 +2924,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Coaching/begeleiding. Wachttijdconcept niet van toepassing.",
-    "bron": ""
+    "bron": "",
+    "doelgroep": null
   },
   {
     "row_id": "134",
@@ -2811,7 +2945,8 @@
     "aanmeld_weken": "3",
     "behandel_weken": null,
     "wachttijd": "Meestal binnen 2 tot 3 weken een afspraak mogelijk",
-    "bron": "https://stresswise.nl/act-therapie/rosmalen/"
+    "bron": "https://stresswise.nl/act-therapie/rosmalen/",
+    "doelgroep": null
   },
   {
     "row_id": "135",
@@ -2832,7 +2967,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Craniosacrale therapie. Wachttijdconcept niet van toepassing.",
-    "bron": ""
+    "bron": "",
+    "doelgroep": null
   },
   {
     "row_id": "136",
@@ -2852,7 +2988,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Personal coaching. Wachttijdconcept niet van toepassing.",
-    "bron": ""
+    "bron": "",
+    "doelgroep": null
   },
   {
     "row_id": "137",
@@ -2872,7 +3009,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Coaching/begeleiding. Wachttijdconcept niet van toepassing.",
-    "bron": ""
+    "bron": "",
+    "doelgroep": null
   },
   {
     "row_id": "138",
@@ -2892,7 +3030,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Coaching. Wachttijdconcept niet van toepassing.",
-    "bron": ""
+    "bron": "",
+    "doelgroep": null
   },
   {
     "row_id": "139",
@@ -2912,7 +3051,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Levensbegeleiding. Wachttijdconcept niet van toepassing.",
-    "bron": ""
+    "bron": "",
+    "doelgroep": null
   },
   {
     "row_id": "140",
@@ -2933,7 +3073,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Natuurcoaching. Wachttijdconcept niet van toepassing.",
-    "bron": ""
+    "bron": "",
+    "doelgroep": null
   },
   {
     "row_id": "141",
@@ -2954,7 +3095,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Natuurcoaching. Wachttijdconcept niet van toepassing.",
-    "bron": ""
+    "bron": "",
+    "doelgroep": null
   },
   {
     "row_id": "142",
@@ -2975,7 +3117,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Coaching/begeleiding. Wachttijdconcept niet van toepassing.",
-    "bron": ""
+    "bron": "",
+    "doelgroep": null
   },
   {
     "row_id": "143",
@@ -2996,7 +3139,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Levensbegeleiding/rouwbegeleiding. Wachttijdconcept niet van toepassing.",
-    "bron": ""
+    "bron": "",
+    "doelgroep": null
   },
   {
     "row_id": "144",
@@ -3016,7 +3160,8 @@
     "aanmeld_weken": "4",
     "behandel_weken": null,
     "wachttijd": "Aanmeldwachttijd 4 weken, behandelwachttijd ca. 1 week (bijgewerkt 04-07-2026)",
-    "bron": "https://www.vandenbosch-kroes.nl/volwassenen/wachttijden/"
+    "bron": "https://www.vandenbosch-kroes.nl/volwassenen/wachttijden/",
+    "doelgroep": null
   },
   {
     "row_id": "145",
@@ -3036,7 +3181,8 @@
     "aanmeld_weken": "18",
     "behandel_weken": null,
     "wachttijd": "Wachttijd tot aan de intake is ongeveer vier a vijf maanden (16-20 weken); na de intake kan behandeling meteen starten",
-    "bron": "https://psychologenpraktijkbeleef.nl/afspraak-maken/"
+    "bron": "https://psychologenpraktijkbeleef.nl/afspraak-maken/",
+    "doelgroep": null
   },
   {
     "row_id": "146",
@@ -3056,7 +3202,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Aanmeldstop per 15 april 2026. Zodra wachtlijst het toelaat gaat stop eraf (per 04-07-2026).",
-    "bron": "https://www.hoffmanderoijpsychologen.nl/"
+    "bron": "https://www.hoffmanderoijpsychologen.nl/",
+    "doelgroep": null
   },
   {
     "row_id": "147",
@@ -3076,7 +3223,8 @@
     "aanmeld_weken": "20",
     "behandel_weken": null,
     "wachttijd": "Aanmeldingswachttijd (bijgewerkt 10 juni 2026):\n\n• Volwassenen: 20 weken\n• Kinderen & jongeren: 4 weken\n• Online behandeling (alleen volwassenen): 4-6 weken\n\nGeen behandelwachttijd — behandeling start direct na intake.\n\nLet op — aanmeldstop voor verzekerden van:\nZilveren Kruis, Interpolis, IAK/Avéro Achmea, FBTO en De Friesland.",
-    "bron": "https://www.psychologenbommelerwaard.nl/praktijkinfo/actuele-wachttijd/"
+    "bron": "https://www.psychologenbommelerwaard.nl/praktijkinfo/actuele-wachttijd/",
+    "doelgroep": "alle leeftijden"
   },
   {
     "row_id": "148",
@@ -3096,7 +3244,8 @@
     "aanmeld_weken": "15",
     "behandel_weken": null,
     "wachttijd": "Wachttijd voor intake: 14-16 weken (geen behandelwachttijd; max. 2 weken tussen intake en start behandeling)",
-    "bron": "https://www.ppns.nl/wachttijden/"
+    "bron": "https://www.ppns.nl/wachttijden/",
+    "doelgroep": null
   },
   {
     "row_id": "149",
@@ -3116,7 +3265,8 @@
     "aanmeld_weken": "2",
     "behandel_weken": null,
     "wachttijd": "Intake volwassenen: 2 weken; behandeling volwassenen na intake: 2 weken",
-    "bron": "https://www.btsw.nl/volwassenen/psychologische-hulpverlening-binnen-vergoeding-zorgverzekering/wachttijden-per-vestiging/"
+    "bron": "https://www.btsw.nl/volwassenen/psychologische-hulpverlening-binnen-vergoeding-zorgverzekering/wachttijden-per-vestiging/",
+    "doelgroep": null
   },
   {
     "row_id": "150",
@@ -3136,7 +3286,8 @@
     "aanmeld_weken": "10-12",
     "behandel_weken": "4-5",
     "wachttijd": "Aanmeldwachttijd: 10-12 weken; behandelwachttijd: 4-5 weken (bijgewerkt 23-06-2026)",
-    "bron": "https://gzpsychologie-coaching.com/"
+    "bron": "https://gzpsychologie-coaching.com/",
+    "doelgroep": null
   },
   {
     "row_id": "151",
@@ -3156,7 +3307,8 @@
     "aanmeld_weken": "10",
     "behandel_weken": null,
     "wachttijd": "10 weken (peildatum 23-06-2026)",
-    "bron": "https://psychologenpraktijkhaga.nl/"
+    "bron": "https://psychologenpraktijkhaga.nl/",
+    "doelgroep": null
   },
   {
     "row_id": "152",
@@ -3176,7 +3328,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Wachtlijst gesloten - aanmelden is op dit moment niet mogelijk wegens hoge wachttijdopbouw",
-    "bron": ""
+    "bron": "",
+    "doelgroep": null
   },
   {
     "row_id": "153",
@@ -3196,7 +3349,8 @@
     "aanmeld_weken": "12",
     "behandel_weken": null,
     "wachttijd": "GB-GGZ (kortdurend): wachttijd 12 weken (bevestigd); S-GGZ (langdurig): tijdelijke patiëntenstop",
-    "bron": "https://www.psychologenpraktijkdefontein.nl/"
+    "bron": "https://www.psychologenpraktijkdefontein.nl/",
+    "doelgroep": null
   },
   {
     "row_id": "154",
@@ -3216,7 +3370,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Momenteel geen nieuwe cliënten aangenomen (per 04-07-2026, website psychologiepraktijkmaaspoort.nl).",
-    "bron": "https://www.psychologiepraktijkmaaspoort.nl/patientenportaal/"
+    "bron": "https://www.psychologiepraktijkmaaspoort.nl/patientenportaal/",
+    "doelgroep": null
   },
   {
     "row_id": "155",
@@ -3236,7 +3391,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Psychologiepraktijk UP (NVPA/RBCZ). Vergoeding alleen via aanvullende verzekering (niet basisverzekering GGZ). Wachttijdconcept niet van toepassing.",
-    "bron": "https://praktijkup.nl/tarieven/"
+    "bron": "https://praktijkup.nl/tarieven/",
+    "doelgroep": null
   },
   {
     "row_id": "156",
@@ -3256,7 +3412,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Onbekend",
-    "bron": ""
+    "bron": "",
+    "doelgroep": null
   },
   {
     "row_id": "157",
@@ -3276,7 +3433,8 @@
     "aanmeld_weken": "12-14",
     "behandel_weken": "2-3",
     "wachttijd": "Aanmeldwachttijd: 12-14 weken; behandelwachttijd: 2-3 weken (bijgewerkt 06-03-2025)",
-    "bron": "https://www.flowpsychologie.nl/werkwijze-en-wachttijd/"
+    "bron": "https://www.flowpsychologie.nl/werkwijze-en-wachttijd/",
+    "doelgroep": null
   },
   {
     "row_id": "158",
@@ -3297,7 +3455,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Aanmeldstop voor behandeling (bijgewerkt 01-07-2026)",
-    "bron": "https://www.ppleenderskiep.nl/wachttijd-en-kosten"
+    "bron": "https://www.ppleenderskiep.nl/wachttijd-en-kosten",
+    "doelgroep": null
   },
   {
     "row_id": "159",
@@ -3317,7 +3476,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Praktijk vol - kan op dit moment geen nieuwe clienten aannemen",
-    "bron": "https://www.marijkeverhoeven.nl/"
+    "bron": "https://www.marijkeverhoeven.nl/",
+    "doelgroep": null
   },
   {
     "row_id": "160",
@@ -3337,7 +3497,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Geen wachttijd vermeld op de praktijksite",
-    "bron": ""
+    "bron": "",
+    "doelgroep": null
   },
   {
     "row_id": "161",
@@ -3357,7 +3518,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Aanmeldstop in verband met een te lange wachttijd (laatst bijgewerkt 6 mei 2026)",
-    "bron": "https://fennekeveenpsychologie.nl/aanmelden/"
+    "bron": "https://fennekeveenpsychologie.nl/aanmelden/",
+    "doelgroep": null
   },
   {
     "row_id": "162",
@@ -3377,7 +3539,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Gesloten voor nieuwe cliënten (bijgewerkt 13-01-2026)",
-    "bron": "https://psychologiepraktijkdekleijn.nl/"
+    "bron": "https://psychologiepraktijkdekleijn.nl/",
+    "doelgroep": null
   },
   {
     "row_id": "163",
@@ -3397,7 +3560,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Coaching voor stiefgezinnen. Wachttijdconcept niet van toepassing.",
-    "bron": ""
+    "bron": "",
+    "doelgroep": null
   },
   {
     "row_id": "164",
@@ -3417,7 +3581,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Coaching/begeleiding. Wachttijdconcept niet van toepassing.",
-    "bron": ""
+    "bron": "",
+    "doelgroep": null
   },
   {
     "row_id": "165",
@@ -3437,7 +3602,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Aanmeldingsstop in 's-Hertogenbosch wegens grote drukte; in Doorwerth nog ruimte voor nieuwe behandelingen",
-    "bron": "https://www.systeemtherapie.net/"
+    "bron": "https://www.systeemtherapie.net/",
+    "doelgroep": null
   },
   {
     "row_id": "166",
@@ -3457,7 +3623,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Integratieve therapie/coaching (geen GGZ basisverzekering). Wachttijdconcept niet van toepassing.",
-    "bron": ""
+    "bron": "",
+    "doelgroep": null
   },
   {
     "row_id": "167",
@@ -3477,7 +3644,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Coaching/begeleiding. Wachttijdconcept niet van toepassing.",
-    "bron": ""
+    "bron": "",
+    "doelgroep": null
   },
   {
     "row_id": "168",
@@ -3497,7 +3665,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Aanmeldstop: praktijk vol, momenteel geen nieuwe cliënten",
-    "bron": "https://www.tweevoudpsychologie.nl/"
+    "bron": "https://www.tweevoudpsychologie.nl/",
+    "doelgroep": null
   },
   {
     "row_id": "169",
@@ -3517,7 +3686,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Tijdelijke aanmeldstop wegens drukte tot 7 januari",
-    "bron": "https://www.affecttherapie.com/"
+    "bron": "https://www.affecttherapie.com/",
+    "doelgroep": null
   },
   {
     "row_id": "170",
@@ -3537,7 +3707,8 @@
     "aanmeld_weken": "4",
     "behandel_weken": null,
     "wachttijd": "Binnen 1 maand (volgens beschikbaarheidsveld op EFT.nl therapeutenoverzicht)",
-    "bron": "https://www.eft.nl/eft_relatietherapeuten/den%20bosch/leenards"
+    "bron": "https://www.eft.nl/eft_relatietherapeuten/den%20bosch/leenards",
+    "doelgroep": null
   },
   {
     "row_id": "171",
@@ -3557,7 +3728,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Coaching. Wachttijdconcept niet van toepassing.",
-    "bron": ""
+    "bron": "",
+    "doelgroep": null
   },
   {
     "row_id": "172",
@@ -3577,7 +3749,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Coaching/begeleiding. Wachttijdconcept niet van toepassing.",
-    "bron": ""
+    "bron": "",
+    "doelgroep": null
   },
   {
     "row_id": "173",
@@ -3597,7 +3770,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Coaching/therapie (geen GGZ basisverzekering). Wachttijdconcept niet van toepassing.",
-    "bron": ""
+    "bron": "",
+    "doelgroep": null
   },
   {
     "row_id": "174",
@@ -3617,7 +3791,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Wachttijd momenteel meer dan 12 weken voor zowel BGGZ als SGGZ; aanmelden is daardoor momenteel niet mogelijk (aanmeldstop). Bij te lange wachttijd kan wachtlijstbemiddeling via de zorgverzekeraar een intake binnen 4 weken en start behandeling binnen 10 weken na intake realiseren",
-    "bron": "https://www.praktijkbaeten.nl/informatie/informatie-voor-verwijzers/"
+    "bron": "https://www.praktijkbaeten.nl/informatie/informatie-voor-verwijzers/",
+    "doelgroep": null
   },
   {
     "row_id": "175",
@@ -3637,7 +3812,8 @@
     "aanmeld_weken": "4",
     "behandel_weken": null,
     "wachttijd": "Binnen 1 maand (volgens beschikbaarheidsveld op EFT.nl therapeutenoverzicht)",
-    "bron": "https://www.eft.nl/berlicum/aarle"
+    "bron": "https://www.eft.nl/berlicum/aarle",
+    "doelgroep": null
   },
   {
     "row_id": "176",
@@ -3657,7 +3833,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Coaching/begeleiding. Wachttijdconcept niet van toepassing.",
-    "bron": ""
+    "bron": "",
+    "doelgroep": null
   },
   {
     "row_id": "177",
@@ -3677,7 +3854,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Gestalttherapie (RBCZ). Wachttijdconcept niet van toepassing.",
-    "bron": ""
+    "bron": "",
+    "doelgroep": null
   },
   {
     "row_id": "178",
@@ -3697,7 +3875,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Relatie-/systeemcoach. Geen GGZ basisverzekering. Wachttijdconcept niet van toepassing.",
-    "bron": ""
+    "bron": "",
+    "doelgroep": null
   },
   {
     "row_id": "179",
@@ -3717,7 +3896,8 @@
     "aanmeld_weken": "4",
     "behandel_weken": null,
     "wachttijd": "Beschikbaarheid: binnen 1 maand (volgens EFT.nl therapeutenprofiel, geraadpleegd juli 2026)",
-    "bron": "https://www.eft.nl/vught/hollander"
+    "bron": "https://www.eft.nl/vught/hollander",
+    "doelgroep": null
   },
   {
     "row_id": "180",
@@ -3737,7 +3917,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Seksuologie. Geen GGZ basisverzekering. Wachttijdconcept niet van toepassing.",
-    "bron": ""
+    "bron": "",
+    "doelgroep": null
   },
   {
     "row_id": "181",
@@ -3757,7 +3938,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Cliëntenstop — nieuwe aanmeldingen worden niet meer op de wachtlijst bijgeschreven",
-    "bron": "https://www.compassieencognitie.nl/"
+    "bron": "https://www.compassieencognitie.nl/",
+    "doelgroep": null
   },
   {
     "row_id": "182",
@@ -3777,7 +3959,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Praktijk voor seksuologie (Den Bosch). Direct betalen, declaratie via aanvullende verzekering. Geen GGZ basisverzekering. Wachttijdconcept niet van toepassing.",
-    "bron": "https://www.praktijk-ancoraanna.nl/tarieven-en-vergoeding/"
+    "bron": "https://www.praktijk-ancoraanna.nl/tarieven-en-vergoeding/",
+    "doelgroep": null
   },
   {
     "row_id": "183",
@@ -3797,7 +3980,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Seksuologische hulpverlening. Geen GGZ basisverzekering. Wachttijdconcept niet van toepassing.",
-    "bron": ""
+    "bron": "",
+    "doelgroep": null
   },
   {
     "row_id": "184",
@@ -3817,7 +4001,8 @@
     "aanmeld_weken": "16",
     "behandel_weken": null,
     "wachttijd": "Wachttijden per zorgverzekeraar (bijgewerkt 09-06-2026):\n\n• Aevitae / Care4Life: 16 weken\n• DSW / inTwente / Stad Holland: 16 weken*\n• Zorg & Zekerheid / AZVZ: 25 weken\n• Salland / ZorgDirect: 30 weken\n• VGZ (+ IZA, IZZ, Univé, UMC, ZEKUR e.a.): 40 weken\n• ONVZ / VvAA: 40 weken\n• Achmea / Zilveren Kruis (+ FBTO, Interpolis, De Friesland e.a.): 55 weken\n• a.s.r.: 60 weken\n• Menzis (+ Anderzorg, Hema, VinkVink e.a.): 60 weken\n• CZ (+ CZdirect, Just, OHRA, NN e.a.): 70 weken\n\n* DSW: geen contract, eigen bijdrage €250\n\nGeen vestiging nabij Den Bosch. Dichtstbijzijnd: Eindhoven (30 wk), Nijmegen (40 wk).",
-    "bron": "https://adhdcentraal.nl/wachttijden/"
+    "bron": "https://adhdcentraal.nl/wachttijden/",
+    "doelgroep": null
   },
   {
     "row_id": "185",
@@ -3837,7 +4022,8 @@
     "aanmeld_weken": "16-18",
     "behandel_weken": null,
     "wachttijd": "GGZ diagnostiek en behandeling: 16-18 weken",
-    "bron": "https://www.praktijkvandewiel.nl/over/actuele-wachttijden/"
+    "bron": "https://www.praktijkvandewiel.nl/over/actuele-wachttijden/",
+    "doelgroep": null
   },
   {
     "row_id": "186",
@@ -3857,7 +4043,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Locatie Oss (vestigingsadres uit lijst, Euterpelaan 11): aanmeldstop, wachtlijst vol. Locatie Wijchen (ander adres): 10 weken. Voor de praktijk op het Oss-adres dus aanmeldstop, geen concreet wekental",
-    "bron": "https://www.psychologiecentraal.nl/"
+    "bron": "https://www.psychologiecentraal.nl/",
+    "doelgroep": null
   },
   {
     "row_id": "187",
@@ -3878,7 +4065,8 @@
     "aanmeld_weken": "22",
     "behandel_weken": null,
     "wachttijd": "Tot 5-6 maanden wachttijd (Culemborg/Leerdam: ~6 mnd, overige locaties ~5 mnd). Intake zelf: 4 weken. Diagnostiek: intakestop.",
-    "bron": "https://psychologenpraktijkperspectief.nl/volwassenen/aanmelding/"
+    "bron": "https://psychologenpraktijkperspectief.nl/volwassenen/aanmelding/",
+    "doelgroep": null
   },
   {
     "row_id": "188",
@@ -3898,7 +4086,8 @@
     "aanmeld_weken": "30",
     "behandel_weken": null,
     "wachttijd": "Aanmeldstop voor niet-gecontracteerde regio's; regio Noordoost-Brabant (incl. Vught/'s-Hertogenbosch) is gecontracteerd en aanmelden is mogelijk, met een wachttijd die 'flexibel rond de 7 a 8 maanden' ligt (circa 30-35 weken) volgens de aanmeldpagina",
-    "bron": "https://ppfcentrum.nl/aanmelden/"
+    "bron": "https://ppfcentrum.nl/aanmelden/",
+    "doelgroep": null
   },
   {
     "row_id": "189",
@@ -3918,7 +4107,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Op dit moment is er geen wachtlijst; een afspraak is dus op korte termijn mogelijk",
-    "bron": "https://www.relatietherapienijmegen.nl/relatietherapie-nijmegen-contact"
+    "bron": "https://www.relatietherapienijmegen.nl/relatietherapie-nijmegen-contact",
+    "doelgroep": null
   },
   {
     "row_id": "190",
@@ -3938,7 +4128,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Aanmeldstop wegens lange wachtlijst; vanaf 1 september 2026 kan weer aangemeld worden voor de wachtlijst (concreet wekental niet vermeld, alleen hervattingsdatum van aanmelding zelf)",
-    "bron": "https://www.jokeheusinkveld.nl/contact/"
+    "bron": "https://www.jokeheusinkveld.nl/contact/",
+    "doelgroep": null
   },
   {
     "row_id": "191",
@@ -3958,7 +4149,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Coaching/begeleiding. Wachttijdconcept niet van toepassing.",
-    "bron": ""
+    "bron": "",
+    "doelgroep": null
   },
   {
     "row_id": "192",
@@ -3978,7 +4170,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Coaching. Wachttijdconcept niet van toepassing.",
-    "bron": ""
+    "bron": "",
+    "doelgroep": null
   },
   {
     "row_id": "193",
@@ -3998,7 +4191,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Coaching/therapie. Wachttijdconcept niet van toepassing.",
-    "bron": ""
+    "bron": "",
+    "doelgroep": null
   },
   {
     "row_id": "194",
@@ -4018,7 +4212,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Expertise centrum hoogbegaafdheid: coaching, training, onderzoek. Geen GGZ basisverzekering behandeling. Wachttijdconcept niet van toepassing.",
-    "bron": "https://www.atrium-forthegifted.com"
+    "bron": "https://www.atrium-forthegifted.com",
+    "doelgroep": null
   },
   {
     "row_id": "195",
@@ -4038,7 +4233,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Christelijke sociale organisatie / lotgenotencontact. Wachttijdconcept niet van toepassing.",
-    "bron": ""
+    "bron": "",
+    "doelgroep": null
   },
   {
     "row_id": "196",
@@ -4058,7 +4254,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Sociale organisatie voor Poolse migranten. Wachttijdconcept niet van toepassing.",
-    "bron": ""
+    "bron": "",
+    "doelgroep": null
   },
   {
     "row_id": "197",
@@ -4079,7 +4276,8 @@
     "aanmeld_weken": "16",
     "behandel_weken": null,
     "wachttijd": "Wachttijd circa 16 weken (regio Brabant, intakewachttijd)",
-    "bron": "https://sensazorg.nl/voor-verwijzers/wachttijden/"
+    "bron": "https://sensazorg.nl/voor-verwijzers/wachttijden/",
+    "doelgroep": null
   },
   {
     "row_id": "198",
@@ -4099,7 +4297,8 @@
     "aanmeld_weken": "0-2",
     "behandel_weken": null,
     "wachttijd": "Aanmeldwachttijd: 0-2 weken",
-    "bron": "https://vurans.nl/wachttijd/"
+    "bron": "https://vurans.nl/wachttijd/",
+    "doelgroep": null
   },
   {
     "row_id": "199",
@@ -4119,7 +4318,8 @@
     "aanmeld_weken": "32",
     "behandel_weken": null,
     "wachttijd": "Intercultureel Tilburg: 32 weken intake; Intercultureel Utrecht: 16 weken intake; Intercultureel Amsterdam: 16 weken intake; Intercultureel Rotterdam: 32 weken intake",
-    "bron": "https://www.fortavolwassenen.nl/wachttijden"
+    "bron": "https://www.fortavolwassenen.nl/wachttijden",
+    "doelgroep": null
   },
   {
     "row_id": "200",
@@ -4140,7 +4340,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Aanmeldstop: GGZ voor Elkaar neemt momenteel geen nieuwe verwijzingen aan vanwege drukte; geen reguliere wachttijd te melden.",
-    "bron": "https://ggzvoorelkaar.nl/wachttijden/"
+    "bron": "https://ggzvoorelkaar.nl/wachttijden/",
+    "doelgroep": null
   },
   {
     "row_id": "201",
@@ -4161,7 +4362,8 @@
     "aanmeld_weken": "3",
     "behandel_weken": null,
     "wachttijd": "Wageningen: 3 weken aanmeld, 1 week behandel / Tiel: 2 weken aanmeld, 1 week behandel",
-    "bron": "https://ggzvoorjou.nl/wachttijd/"
+    "bron": "https://ggzvoorjou.nl/wachttijd/",
+    "doelgroep": null
   },
   {
     "row_id": "202",
@@ -4182,7 +4384,8 @@
     "aanmeld_weken": "12",
     "behandel_weken": null,
     "wachttijd": "Wachttijd intake: tot 8 weken; wachttijd therapie (na intake): 12 weken",
-    "bron": "https://ggzkeizersgracht.nl/wachttijden/"
+    "bron": "https://ggzkeizersgracht.nl/wachttijden/",
+    "doelgroep": null
   },
   {
     "row_id": "203",
@@ -4202,7 +4405,8 @@
     "aanmeld_weken": "25-50",
     "behandel_weken": null,
     "wachttijd": "Geen locatie nabij Den Bosch. Dichtsbijzijnde: Zwolle 25 weken, Hoevelaken 10 weken (BGGZ), Ede 19 weken. Bijgewerkt 30-06-2026",
-    "bron": "https://www.eleos.nl/wachttijden/"
+    "bron": "https://www.eleos.nl/wachttijden/",
+    "doelgroep": null
   },
   {
     "row_id": "204",
@@ -4222,7 +4426,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Psychosociale hulpverlening op christelijke basis (voorliggende voorziening, geen GGZ basisverzekering). Wachttijdconcept niet van toepassing.",
-    "bron": ""
+    "bron": "",
+    "doelgroep": null
   },
   {
     "row_id": "205",
@@ -4242,7 +4447,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Filosofisch coaching. Wachttijdconcept niet van toepassing.",
-    "bron": ""
+    "bron": "",
+    "doelgroep": null
   },
   {
     "row_id": "206",
@@ -4262,7 +4468,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Coaching. Wachttijdconcept niet van toepassing.",
-    "bron": ""
+    "bron": "",
+    "doelgroep": null
   },
   {
     "row_id": "207",
@@ -4282,7 +4489,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Praktijk Willemshuys heeft aanmeldstop voor nieuwe cliënten (bijgewerkt juli 2026)",
-    "bron": "https://www.willemshuys.nl/"
+    "bron": "https://www.willemshuys.nl/",
+    "doelgroep": null
   },
   {
     "row_id": "208",
@@ -4302,7 +4510,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Islamitisch geestelijk begeleider, relatietherapeut, haptonoom, personal coach (NVPA/RBCZ). Geen GGZ basisverzekering. Wachttijdconcept niet van toepassing.",
-    "bron": ""
+    "bron": "",
+    "doelgroep": null
   },
   {
     "row_id": "209",
@@ -4322,7 +4531,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Praktijk vermeldt op de eigen homepage expliciet (in het Pools): 'Uwaga! Zapisy nowych klientów chwilowo wstrzymane!' ('Let op! Aanmelding van nieuwe klanten tijdelijk gestopt!'), direct naast de contactgegevens.",
-    "bron": "https://www.motylinska.eu/"
+    "bron": "https://www.motylinska.eu/",
+    "doelgroep": null
   },
   {
     "row_id": "210",
@@ -4342,7 +4552,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Relatie- en gezinstherapie (NVRG/SKJ). Vergoed via aanvullende verzekering, niet basisverzekering. Wachttijdconcept niet van toepassing.",
-    "bron": "https://www.strngth.nl"
+    "bron": "https://www.strngth.nl",
+    "doelgroep": null
   },
   {
     "row_id": "211",
@@ -4362,7 +4573,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Geen wachtlijst: praktijk werkt via Psyned, is onafhankelijk en werkt niet met zorgverzekeraars, waardoor er volgens Psyned geen wachtlijst is.",
-    "bron": "https://www.psyned.nl/psycholoog/noord-holland/hoofddorp/anna-diament/"
+    "bron": "https://www.psyned.nl/psycholoog/noord-holland/hoofddorp/anna-diament/",
+    "doelgroep": null
   },
   {
     "row_id": "212",
@@ -4382,7 +4594,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Online counselor (private tarieven, geen GGZ basisverzekering). Wachttijdconcept niet van toepassing.",
-    "bron": ""
+    "bron": "",
+    "doelgroep": null
   },
   {
     "row_id": "213",
@@ -4402,7 +4615,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Coaching/begeleiding (geen GGZ basisverzekering). Wachttijdconcept niet van toepassing.",
-    "bron": ""
+    "bron": "",
+    "doelgroep": null
   },
   {
     "row_id": "214",
@@ -4422,7 +4636,8 @@
     "aanmeld_weken": "2",
     "behandel_weken": null,
     "wachttijd": "Basis GGZ Den Bosch (Vught): aanmeldwachttijd 2 weken; Specialistische GGZ Den Bosch: aanmeldwachttijd 5 weken, behandelwachttijd 11 weken",
-    "bron": "https://www.novadic-kentron.nl/wachttijden/"
+    "bron": "https://www.novadic-kentron.nl/wachttijden/",
+    "doelgroep": null
   },
   {
     "row_id": "215",
@@ -4442,7 +4657,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Peer-support centrum voor herstellende verslaafden door vrijwilligers met ervaringsdeskundigheid (Den Bosch). Geen GGZ basisverzekering. Wachttijdconcept niet van toepassing.",
-    "bron": "https://www.ismes.nl"
+    "bron": "https://www.ismes.nl",
+    "doelgroep": null
   },
   {
     "row_id": "216",
@@ -4462,7 +4678,8 @@
     "aanmeld_weken": "7",
     "behandel_weken": null,
     "wachttijd": "Aanmelding tot intake: 4 weken; intake tot start behandeling: binnen 3 weken (alle locaties)",
-    "bron": "https://solutions-center.nl/behandeling/wachttijden/"
+    "bron": "https://solutions-center.nl/behandeling/wachttijden/",
+    "doelgroep": null
   },
   {
     "row_id": "217",
@@ -4482,7 +4699,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Onbekend",
-    "bron": "https://www.villaramadas-ggz.nl/"
+    "bron": "https://www.villaramadas-ggz.nl/",
+    "doelgroep": null
   },
   {
     "row_id": "218",
@@ -4502,7 +4720,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Privékliniek voor verslavingszorg (Amsterdam/Zuid-Afrika). Geen reguliere GGZ Treeknorm-wachttijden. Wachttijdconcept niet standaard van toepassing.",
-    "bron": ""
+    "bron": "",
+    "doelgroep": null
   },
   {
     "row_id": "219",
@@ -4522,7 +4741,8 @@
     "aanmeld_weken": "8",
     "behandel_weken": null,
     "wachttijd": "Den Bosch: intake circa 8 weken; start individuele behandeling gemiddeld 8 weken na intake",
-    "bron": "https://www.trubendorffer.nl/wachttijden/"
+    "bron": "https://www.trubendorffer.nl/wachttijden/",
+    "doelgroep": null
   },
   {
     "row_id": "220",
@@ -4542,7 +4762,8 @@
     "aanmeld_weken": "2",
     "behandel_weken": null,
     "wachttijd": "Intake 1-7 dagen; dagbehandeling gemiddeld 1 week; klinische opname 2-4 weken",
-    "bron": "https://connection-sggz.nl/over-ons/actuele-wachttijden"
+    "bron": "https://connection-sggz.nl/over-ons/actuele-wachttijden",
+    "doelgroep": null
   },
   {
     "row_id": "221",
@@ -4562,7 +4783,8 @@
     "aanmeld_weken": "2-3",
     "behandel_weken": null,
     "wachttijd": "Wachttijd 2 a 3 weken tot intake (bijgewerkt 31 juli 2025)",
-    "bron": "https://myriadverslavingszorg.nl/"
+    "bron": "https://myriadverslavingszorg.nl/",
+    "doelgroep": null
   },
   {
     "row_id": "222",
@@ -4582,7 +4804,8 @@
     "aanmeld_weken": null,
     "behandel_weken": "5-6",
     "wachttijd": "Contact binnen 6 weken na verwijzing; intake 2-3 weken daarna (~8-9 weken totaal). Individuele behandeling: 5-6 maanden (bijgewerkt 13-05-2026)",
-    "bron": "https://www.point-o.nl/contact/wachttijden-aanmelden-kosten-en-vergoedingen-behandeling/"
+    "bron": "https://www.point-o.nl/contact/wachttijden-aanmelden-kosten-en-vergoedingen-behandeling/",
+    "doelgroep": null
   },
   {
     "row_id": "223",
@@ -4602,7 +4825,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Privé detox/revalidatie (geen reguliere GGZ). Wachttijdconcept niet van toepassing.",
-    "bron": ""
+    "bron": "",
+    "doelgroep": null
   },
   {
     "row_id": "224",
@@ -4622,7 +4846,8 @@
     "aanmeld_weken": "2",
     "behandel_weken": null,
     "wachttijd": "Intake 1-7 dagen; dagbehandeling gemiddeld 1 week; klinische opname 2-4 weken",
-    "bron": "https://cacnverslavingszorg.nl/over-ons/actuele-wachttijden"
+    "bron": "https://cacnverslavingszorg.nl/over-ons/actuele-wachttijden",
+    "doelgroep": null
   },
   {
     "row_id": "225",
@@ -4642,7 +4867,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Onbekend",
-    "bron": "https://www.castlecraig.nl/"
+    "bron": "https://www.castlecraig.nl/",
+    "doelgroep": null
   },
   {
     "row_id": "226",
@@ -4662,7 +4888,8 @@
     "aanmeld_weken": "10",
     "behandel_weken": null,
     "wachttijd": "BGGZ: Dordrecht 10 weken, Zeeland 22 weken, HoopOnline 12 weken, Rotterdam 40 weken. Bijgewerkt 29-06-2026",
-    "bron": "https://dehoop.org/wachttijden/aanmeldingswachttijden/"
+    "bron": "https://dehoop.org/wachttijden/aanmeldingswachttijden/",
+    "doelgroep": null
   },
   {
     "row_id": "227",
@@ -4682,7 +4909,8 @@
     "aanmeld_weken": "10",
     "behandel_weken": null,
     "wachttijd": "Verslavingszorg ambulant/klinisch: Venray 10 wk, Venlo 8 wk, Weert/Roermond 10 wk. Poli FACT Venray: 91 wk (bijgewerkt 01-07-2026)",
-    "bron": "https://www.vvgi.nl/organisatie/wachttijden/"
+    "bron": "https://www.vvgi.nl/organisatie/wachttijden/",
+    "doelgroep": null
   },
   {
     "row_id": "228",
@@ -4702,7 +4930,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Geen wachttijd vermeld; praktijk profileert zich expliciet met 'geen lange wachttijden, direct starten'",
-    "bron": "https://www.isa-power.nl/"
+    "bron": "https://www.isa-power.nl/",
+    "doelgroep": null
   },
   {
     "row_id": "229",
@@ -4722,7 +4951,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Vrijwilligersorganisatie / herstelcentrum eetstoornissen (niet-GGZ, ervaringsdeskundigheid). Wachttijdconcept niet van toepassing.",
-    "bron": ""
+    "bron": "",
+    "doelgroep": null
   },
   {
     "row_id": "230",
@@ -4742,7 +4972,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Geen verwijzing nodig, directe intake mogelijk, flexibele spreekuren (ook avond/zaterdag)",
-    "bron": "https://kobussencleveringadietisten.nl/contact/"
+    "bron": "https://kobussencleveringadietisten.nl/contact/",
+    "doelgroep": null
   },
   {
     "row_id": "231",
@@ -4762,7 +4993,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Eetcoaching (geen GGZ basisverzekering). Wachttijdconcept niet van toepassing.",
-    "bron": ""
+    "bron": "",
+    "doelgroep": null
   },
   {
     "row_id": "232",
@@ -4782,7 +5014,8 @@
     "aanmeld_weken": "11",
     "behandel_weken": null,
     "wachttijd": "Gemiddeld 10-12 weken wachttijd tot intake (gemiddelde over voorgaande maanden, kan per moment afwijken); voor Zuidoost-Brabant regio werd in een nieuwsbericht van nov. 2024 een wachttijd van 37 weken voor eetstoornis-GGZ gemeld, maar dit cijfer kon niet worden bevestigd als specifiek voor deze locatie/instelling",
-    "bron": "https://www.eetstoornissen.ggzoostbrabant.nl"
+    "bron": "https://www.eetstoornissen.ggzoostbrabant.nl",
+    "doelgroep": null
   },
   {
     "row_id": "233",
@@ -4802,7 +5035,8 @@
     "aanmeld_weken": "13",
     "behandel_weken": null,
     "wachttijd": "Basis GGZ Online Behandelteam: ca. 13 weken. Specialistisch ambulant Eindhoven: 18-52+ weken (per gebied). Bijgewerkt 08-06-2026",
-    "bron": "https://www.ggze.nl/zorg-bij-ggze/wachttijden"
+    "bron": "https://www.ggze.nl/zorg-bij-ggze/wachttijden",
+    "doelgroep": null
   },
   {
     "row_id": "234",
@@ -4822,7 +5056,8 @@
     "aanmeld_weken": "6-23",
     "behandel_weken": null,
     "wachttijd": "Altrecht Eetstoornissen (Rintveld, Regio Utrecht Zuidoost, 01-06-2026): Kliniek volwassenen Unit 2: 8 wk aanmeld | Kliniek volwassenen Unit 3: 6 wk aanmeld | Ambulant volwassenen: 23 wk aanmeld, 3 wk behandel | Jeugd kliniek: 9 wk | Jeugd ambulant: 7 wk aanmeld, 4 wk behandel",
-    "bron": "https://www.altrecht.nl/wachttijden/"
+    "bron": "https://www.altrecht.nl/wachttijden/",
+    "doelgroep": "jeugd"
   },
   {
     "row_id": "235",
@@ -4842,7 +5077,8 @@
     "aanmeld_weken": "0-9",
     "behandel_weken": null,
     "wachttijd": "Sterk locatie-afhankelijk: Tilburg 0 weken, digitale behandeling 9 weken, Amsterdam/Bilthoven/Nijmegen/Zwolle 25 weken, Den Haag 30 weken, Groningen 4-12 weken (bijgewerkt 24 jun 2026)",
-    "bron": "https://www.humanconcern.nl/behandeling/praktische-informatie/wachttijden"
+    "bron": "https://www.humanconcern.nl/behandeling/praktische-informatie/wachttijden",
+    "doelgroep": null
   },
   {
     "row_id": "236",
@@ -4862,7 +5098,8 @@
     "aanmeld_weken": "24",
     "behandel_weken": null,
     "wachttijd": "Vught (dichtstbijzijnde locatie): intake >24 weken, behandeling 15 weken",
-    "bron": "https://co-eur.nl/wachttijden/"
+    "bron": "https://co-eur.nl/wachttijden/",
+    "doelgroep": null
   },
   {
     "row_id": "237",
@@ -4882,7 +5119,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Hormoonspecialist. Wachttijdconcept niet van toepassing.",
-    "bron": ""
+    "bron": "",
+    "doelgroep": null
   },
   {
     "row_id": "238",
@@ -4902,7 +5140,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Wellnessarts/coach. Geen GGZ basisverzekering. Wachttijdconcept niet van toepassing.",
-    "bron": ""
+    "bron": "",
+    "doelgroep": null
   },
   {
     "row_id": "239",
@@ -4922,7 +5161,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Overgangsbegeleiding. Wachttijdconcept niet van toepassing.",
-    "bron": ""
+    "bron": "",
+    "doelgroep": null
   },
   {
     "row_id": "240",
@@ -4942,7 +5182,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Rouwbegeleiding bij zwangerschapsverlies. Wachttijdconcept niet van toepassing.",
-    "bron": ""
+    "bron": "",
+    "doelgroep": null
   },
   {
     "row_id": "241",
@@ -4962,7 +5203,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Reactie doorgaans binnen twee werkdagen, geen wachtlijst vermeld",
-    "bron": "https://leonieverhulst.nl/contact/"
+    "bron": "https://leonieverhulst.nl/contact/",
+    "doelgroep": null
   },
   {
     "row_id": "242",
@@ -4982,7 +5224,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Mantelzorgondersteuning. Wachttijdconcept niet van toepassing.",
-    "bron": ""
+    "bron": "",
+    "doelgroep": null
   },
   {
     "row_id": "243",
@@ -5002,7 +5245,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Mindfulness. Geen GGZ basisverzekering. Wachttijdconcept niet van toepassing.",
-    "bron": ""
+    "bron": "",
+    "doelgroep": null
   },
   {
     "row_id": "244",
@@ -5022,7 +5266,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Psychedelic therapist (tripsitter) via Triptherapie.nl. Geen GGZ basisverzekering. Wachttijdconcept niet van toepassing.",
-    "bron": "https://triptherapie.nl/en/staff/gijs/"
+    "bron": "https://triptherapie.nl/en/staff/gijs/",
+    "doelgroep": null
   },
   {
     "row_id": "245",
@@ -5042,7 +5287,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Analytische therapie & mindfulness training (geen BIG, geen GGZ basisverzekering). Wachttijdconcept niet van toepassing.",
-    "bron": "https://www.evenlief.nl"
+    "bron": "https://www.evenlief.nl",
+    "doelgroep": null
   },
   {
     "row_id": "246",
@@ -5062,7 +5308,8 @@
     "aanmeld_weken": "2",
     "behandel_weken": null,
     "wachttijd": "Maximaal 2 weken tussen intake en start behandeling",
-    "bron": ""
+    "bron": "",
+    "doelgroep": null
   },
   {
     "row_id": "247",
@@ -5082,7 +5329,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Mindfulness, TRE, ACT - persoonlijke ontwikkeling & stressmanagement (Rosmalen). Geen BIG, geen GGZ basisverzekering. Wachttijdconcept niet van toepassing.",
-    "bron": "https://www.onderdebeuk.nl"
+    "bron": "https://www.onderdebeuk.nl",
+    "doelgroep": null
   },
   {
     "row_id": "248",
@@ -5102,7 +5350,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Centrum voor mindfulness, meditatie en ACT (Den Bosch). Trainingen en coaching, geen GGZ basisverzekering. Wachttijdconcept niet van toepassing.",
-    "bron": "https://www.centrumdepoort.nl"
+    "bron": "https://www.centrumdepoort.nl",
+    "doelgroep": null
   },
   {
     "row_id": "249",
@@ -5122,7 +5371,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Psychomotorische therapie praktijk (vaktherapie/aanvullende verzekering). Wachttijdconcept niet van toepassing.",
-    "bron": ""
+    "bron": "",
+    "doelgroep": null
   },
   {
     "row_id": "250",
@@ -5142,7 +5392,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Psychomotorische therapie praktijk (vaktherapie/aanvullende verzekering). Wachttijdconcept niet van toepassing.",
-    "bron": ""
+    "bron": "",
+    "doelgroep": null
   },
   {
     "row_id": "251",
@@ -5162,7 +5413,8 @@
     "aanmeld_weken": "5",
     "behandel_weken": null,
     "wachttijd": "Wachttijd intake: 2-8 weken; behandeling: 1-6 maanden",
-    "bron": "https://human-motion.nl/"
+    "bron": "https://human-motion.nl/",
+    "doelgroep": null
   },
   {
     "row_id": "252",
@@ -5182,7 +5434,8 @@
     "aanmeld_weken": "4",
     "behandel_weken": null,
     "wachttijd": "Intake 4 weken, behandeling gemiddeld 6 weken na intake",
-    "bron": "https://www.psychomotorische-therapie-boxtel.nl/"
+    "bron": "https://www.psychomotorische-therapie-boxtel.nl/",
+    "doelgroep": null
   },
   {
     "row_id": "253",
@@ -5202,7 +5455,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Lotgenotencontact suïcide preventie (geen GGZ behandeling). Wachttijdconcept niet van toepassing.",
-    "bron": ""
+    "bron": "",
+    "doelgroep": null
   },
   {
     "row_id": "254",
@@ -5222,7 +5476,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Haptonomie. Wachttijdconcept niet van toepassing.",
-    "bron": ""
+    "bron": "",
+    "doelgroep": null
   },
   {
     "row_id": "255",
@@ -5242,7 +5497,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Haptonomie. Wachttijdconcept niet van toepassing.",
-    "bron": ""
+    "bron": "",
+    "doelgroep": null
   },
   {
     "row_id": "256",
@@ -5262,7 +5518,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Haptonomie. Wachttijdconcept niet van toepassing.",
-    "bron": ""
+    "bron": "",
+    "doelgroep": null
   },
   {
     "row_id": "257",
@@ -5282,7 +5539,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Haptonomie. Wachttijdconcept niet van toepassing.",
-    "bron": ""
+    "bron": "",
+    "doelgroep": null
   },
   {
     "row_id": "258",
@@ -5302,7 +5560,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Geen wachtlijst",
-    "bron": "https://www.raak-haptonomie.nl/"
+    "bron": "https://www.raak-haptonomie.nl/",
+    "doelgroep": null
   },
   {
     "row_id": "259",
@@ -5322,7 +5581,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Aanmeldstop: cliëntenstop, momenteel geen nieuwe cliënten",
-    "bron": "https://www.manonvandijk.nu/"
+    "bron": "https://www.manonvandijk.nu/",
+    "doelgroep": null
   },
   {
     "row_id": "260",
@@ -5342,7 +5602,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Haptotherapie. Wachttijdconcept niet van toepassing.",
-    "bron": ""
+    "bron": "",
+    "doelgroep": null
   },
   {
     "row_id": "261",
@@ -5362,7 +5623,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Haptonomie/fysiotherapie. Wachttijdconcept niet van toepassing.",
-    "bron": ""
+    "bron": "",
+    "doelgroep": null
   },
   {
     "row_id": "262",
@@ -5382,7 +5644,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Haptonomie. Wachttijdconcept niet van toepassing.",
-    "bron": ""
+    "bron": "",
+    "doelgroep": null
   },
   {
     "row_id": "263",
@@ -5402,7 +5665,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Haptonomie. Wachttijdconcept niet van toepassing.",
-    "bron": ""
+    "bron": "",
+    "doelgroep": null
   },
   {
     "row_id": "264",
@@ -5422,7 +5686,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Haptonomie. Wachttijdconcept niet van toepassing.",
-    "bron": ""
+    "bron": "",
+    "doelgroep": null
   },
   {
     "row_id": "265",
@@ -5442,7 +5707,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Coaching/begeleiding. Wachttijdconcept niet van toepassing.",
-    "bron": ""
+    "bron": "",
+    "doelgroep": null
   },
   {
     "row_id": "266",
@@ -5462,7 +5728,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Geen wachtlijst (vermeld op therapeutenprofiel)",
-    "bron": "https://www.vind-een-therapeut.nl/"
+    "bron": "https://www.vind-een-therapeut.nl/",
+    "doelgroep": null
   },
   {
     "row_id": "267",
@@ -5482,7 +5749,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Geen wachtlijst, afspraak doorgaans binnen 2 weken",
-    "bron": "https://www.hypnobalance.nl/"
+    "bron": "https://www.hypnobalance.nl/",
+    "doelgroep": null
   },
   {
     "row_id": "268",
@@ -5502,7 +5770,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Geen wachtlijst",
-    "bron": "https://www.hypnokracht.nl"
+    "bron": "https://www.hypnokracht.nl",
+    "doelgroep": null
   },
   {
     "row_id": "269",
@@ -5522,7 +5791,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Hypnotherapie. Wachttijdconcept niet van toepassing.",
-    "bron": ""
+    "bron": "",
+    "doelgroep": null
   },
   {
     "row_id": "270",
@@ -5542,7 +5812,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Hypnotherapie. Wachttijdconcept niet van toepassing.",
-    "bron": ""
+    "bron": "",
+    "doelgroep": null
   },
   {
     "row_id": "271",
@@ -5562,7 +5833,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Lichaamswerk/somatische therapie. Geen GGZ basisverzekering. Wachttijdconcept niet van toepassing.",
-    "bron": ""
+    "bron": "",
+    "doelgroep": null
   },
   {
     "row_id": "272",
@@ -5582,7 +5854,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Praktijk voor Ademtherapie & CranioSacraal therapie (Vught). Complementaire zorg, geen GGZ basisverzekering. Wachttijdconcept niet van toepassing.",
-    "bron": "https://www.ademtherapie.nl"
+    "bron": "https://www.ademtherapie.nl",
+    "doelgroep": null
   },
   {
     "row_id": "273",
@@ -5602,7 +5875,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Geen wachtlijst (vermeld op therapeutenprofiel van Marjon van Grunsven)",
-    "bron": "https://www.vind-een-therapeut.nl/"
+    "bron": "https://www.vind-een-therapeut.nl/",
+    "doelgroep": null
   },
   {
     "row_id": "274",
@@ -5622,7 +5896,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Onbekend",
-    "bron": ""
+    "bron": "",
+    "doelgroep": null
   },
   {
     "row_id": "275",
@@ -5642,7 +5917,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Adem- en presentatiecoach (Den Bosch). Geen BIG-registratie, geen GGZ basisverzekering. Wachttijdconcept niet van toepassing.",
-    "bron": "https://www.opjouwpodium.nl"
+    "bron": "https://www.opjouwpodium.nl",
+    "doelgroep": null
   },
   {
     "row_id": "276",
@@ -5662,7 +5938,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Ademtherapie. Wachttijdconcept niet van toepassing.",
-    "bron": ""
+    "bron": "",
+    "doelgroep": null
   },
   {
     "row_id": "277",
@@ -5682,7 +5959,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Osteopathie. Wachttijdconcept niet van toepassing.",
-    "bron": ""
+    "bron": "",
+    "doelgroep": null
   },
   {
     "row_id": "278",
@@ -5702,7 +5980,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Oefentherapie Mensendieck & leefstijlcoach (Drunen). Paramedisch, geen GGZ basisverzekering. Wachttijdconcept niet van toepassing.",
-    "bron": "https://www.nicoletteslot.nl"
+    "bron": "https://www.nicoletteslot.nl",
+    "doelgroep": null
   },
   {
     "row_id": "279",
@@ -5722,7 +6001,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Cesar/Mensendieck oefentherapie (cesar-hemon.nl). Paramedisch, geen GGZ basisverzekering. Wachttijdconcept niet van toepassing.",
-    "bron": "https://www.cesar-hemon.nl"
+    "bron": "https://www.cesar-hemon.nl",
+    "doelgroep": null
   },
   {
     "row_id": "280",
@@ -5744,7 +6024,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Mindfulness. Geen GGZ basisverzekering. Wachttijdconcept niet van toepassing.",
-    "bron": ""
+    "bron": "",
+    "doelgroep": null
   },
   {
     "row_id": "281",
@@ -5764,7 +6045,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Mensendieck oefentherapie. Wachttijdconcept niet van toepassing.",
-    "bron": ""
+    "bron": "",
+    "doelgroep": null
   },
   {
     "row_id": "282",
@@ -5784,7 +6066,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Oefentherapeut Mensendieck Den Bosch (mensendieckdenbosch.nl). Paramedisch, geen GGZ basisverzekering. Wachttijdconcept niet van toepassing.",
-    "bron": "https://www.mensendieckdenbosch.nl/"
+    "bron": "https://www.mensendieckdenbosch.nl/",
+    "doelgroep": null
   },
   {
     "row_id": "283",
@@ -5804,7 +6087,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Dramatherapie. Wachttijdconcept niet van toepassing.",
-    "bron": ""
+    "bron": "",
+    "doelgroep": null
   },
   {
     "row_id": "284",
@@ -5824,7 +6108,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Onbekend",
-    "bron": ""
+    "bron": "",
+    "doelgroep": null
   },
   {
     "row_id": "285",
@@ -5844,7 +6129,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Groeinest voor leiderschap: systemisch en lichaamsgericht werken, coaching, retreats (Den Bosch/Vught). Geen GGZ basisverzekering. Wachttijdconcept niet van toepassing.",
-    "bron": "https://www.ynnergy.nl"
+    "bron": "https://www.ynnergy.nl",
+    "doelgroep": null
   },
   {
     "row_id": "286",
@@ -5864,7 +6150,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Familieopstellingen, systemisch coach (geen BIG-registratie, geen GGZ basisverzekering). Wachttijdconcept niet van toepassing.",
-    "bron": "https://nikkiepotjes.nl"
+    "bron": "https://nikkiepotjes.nl",
+    "doelgroep": null
   },
   {
     "row_id": "287",
@@ -5884,7 +6171,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Trainingscentrum voor persoonlijke ontwikkeling, coaching en rouwbegeleiding (Bokhoven/Den Bosch). Boeddhistische aanpak, geen GGZ basisverzekering. Wachttijdconcept niet van toepassing.",
-    "bron": "https://www.deroestenburgh.nl/"
+    "bron": "https://www.deroestenburgh.nl/",
+    "doelgroep": null
   },
   {
     "row_id": "288",
@@ -5904,7 +6192,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Coaching (kijknu.nu). Wachttijdconcept niet van toepassing.",
-    "bron": ""
+    "bron": "",
+    "doelgroep": null
   },
   {
     "row_id": "289",
@@ -5924,7 +6213,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Geen wachtlijst (praktijk geeft aan binnen 24 uur te reageren)",
-    "bron": "https://www.regenboogpsycholoogiris.nl/"
+    "bron": "https://www.regenboogpsycholoogiris.nl/",
+    "doelgroep": null
   },
   {
     "row_id": "290",
@@ -5944,7 +6234,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Stembevrijding/zang. Wachttijdconcept niet van toepassing.",
-    "bron": ""
+    "bron": "",
+    "doelgroep": null
   },
   {
     "row_id": "291",
@@ -5964,7 +6255,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Orthomoleculair therapeut. Wachttijdconcept niet van toepassing.",
-    "bron": ""
+    "bron": "",
+    "doelgroep": null
   },
   {
     "row_id": "292",
@@ -5984,7 +6276,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Acupunctuur. Wachttijdconcept niet van toepassing.",
-    "bron": ""
+    "bron": "",
+    "doelgroep": null
   },
   {
     "row_id": "293",
@@ -6004,7 +6297,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Bokscoaching. Wachttijdconcept niet van toepassing.",
-    "bron": ""
+    "bron": "",
+    "doelgroep": null
   },
   {
     "row_id": "294",
@@ -6024,7 +6318,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Acupunctuur. Wachttijdconcept niet van toepassing.",
-    "bron": ""
+    "bron": "",
+    "doelgroep": null
   },
   {
     "row_id": "295",
@@ -6044,7 +6339,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Verslavingszorg Digipoli (BGGZ): <6 weken. Specialistisch regionaal: 12-44 weken (Gelderland/Rivierenland). Bijgewerkt 05-06-2026",
-    "bron": "https://www.iriszorg.nl/informatie-en-advies/praktische-informatie/wachttijden/"
+    "bron": "https://www.iriszorg.nl/informatie-en-advies/praktische-informatie/wachttijden/",
+    "doelgroep": null
   },
   {
     "row_id": "296",
@@ -6064,7 +6360,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Online specialistische GGZ (SGGZ). Expliciet geen lange wachtlijst (\"Alles zonder lange wachtlijst\"). Behandeling start snel via videoverbinding. BIG-geregistreerd, AGB 22221378.",
-    "bron": "https://www.beterggz.nl"
+    "bron": "https://www.beterggz.nl",
+    "doelgroep": null
   },
   {
     "row_id": "297",
@@ -6084,7 +6381,8 @@
     "aanmeld_weken": "4",
     "behandel_weken": null,
     "wachttijd": "Aanmeldingswachttijd circa 4 weken; wachttijd tot behandeling circa 6 weken",
-    "bron": "https://ggzonline.nl/behandeling/wachtijden-vergoeding/"
+    "bron": "https://ggzonline.nl/behandeling/wachtijden-vergoeding/",
+    "doelgroep": null
   },
   {
     "row_id": "298",
@@ -6104,7 +6402,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Geen wachtlijst (expliciet vermeld op homepage)",
-    "bron": "https://www.lmcare.nl/"
+    "bron": "https://www.lmcare.nl/",
+    "doelgroep": null
   },
   {
     "row_id": "299",
@@ -6124,7 +6423,8 @@
     "aanmeld_weken": "36",
     "behandel_weken": null,
     "wachttijd": "Geen vestiging in regio Den Bosch. Dichtstbijzijnd: Eindhoven.\n\nWachttijden vestiging Eindhoven (peildatum 01-07-2026):\n• Menzis / CZ / Overige: intake 36 wk + 15 wk na intake = 51 wk totaal\n• VGZ: intake 30 wk + 15 wk na intake = 45 wk totaal\n• Zilveren Kruis: intake 36 wk + 15 wk na intake = 51 wk totaal\n\nDigitale Poli (online):\n• Menzis / CZ / VGZ / Overige: intake 9 wk + 14 wk na intake = 23 wk totaal\n• Zilveren Kruis: intake 21 wk + 14 wk na intake = 35 wk totaal",
-    "bron": "https://www.viviqggz.nl/over-viviq/wachttijden-viviq/"
+    "bron": "https://www.viviqggz.nl/over-viviq/wachttijden-viviq/",
+    "doelgroep": null
   },
   {
     "row_id": "300",
@@ -6144,7 +6444,8 @@
     "aanmeld_weken": "2",
     "behandel_weken": null,
     "wachttijd": "Snel starten mogelijk; geen vaste wachttijd opgegeven op de wachttijdpagina",
-    "bron": "https://mindlercare.com/nl/wachttijd-psycholoog/"
+    "bron": "https://mindlercare.com/nl/wachttijd-psycholoog/",
+    "doelgroep": null
   },
   {
     "row_id": "301",
@@ -6165,7 +6466,8 @@
     "aanmeld_weken": "10",
     "behandel_weken": null,
     "wachttijd": "Wachttijd circa 10 weken (Den Bosch locatie)",
-    "bron": "https://ipractice.nl/psycholoog/wachttijden/"
+    "bron": "https://ipractice.nl/psycholoog/wachttijden/",
+    "doelgroep": null
   },
   {
     "row_id": "302",
@@ -6186,7 +6488,8 @@
     "aanmeld_weken": "1",
     "behandel_weken": null,
     "wachttijd": "Geen vestiging in regio 's-Hertogenbosch; landelijke/online praktijk met wachttijden per locatie (geactualiseerd 8 mei 2026): Abcoude/Amsterdam/Doorn/Hilversum/Maassluis/Online 1-4 weken, Almere 6-10 weken",
-    "bron": "https://www.deautismespecialist.nl/aanmelden/wachttijden"
+    "bron": "https://www.deautismespecialist.nl/aanmelden/wachttijden",
+    "doelgroep": null
   },
   {
     "row_id": "303",
@@ -6206,7 +6509,8 @@
     "aanmeld_weken": "10-12",
     "behandel_weken": null,
     "wachttijd": "Geen locatie in Den Bosch. BGGZ Dordrecht: 10 weken, SGGZ Dordrecht: 37 weken. Hoop Online: 12 weken (BGGZ) / 12 weken (SGGZ). Bijgewerkt 29-06-2026.",
-    "bron": "https://dehoop.org/wachttijden/aanmeldingswachttijden/"
+    "bron": "https://dehoop.org/wachttijden/aanmeldingswachttijden/",
+    "doelgroep": null
   },
   {
     "row_id": "304",
@@ -6227,7 +6531,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Gesloten voor nieuwe aanmeldingen tot 1 september 2026",
-    "bron": "https://www.ggz-psychologiepraktijk.nl/aanmelden/"
+    "bron": "https://www.ggz-psychologiepraktijk.nl/aanmelden/",
+    "doelgroep": null
   },
   {
     "row_id": "305",
@@ -6247,7 +6552,8 @@
     "aanmeld_weken": "1",
     "behandel_weken": null,
     "wachttijd": "Start binnen een week (on demand behandeling); adviesgesprek binnen 4 werkdagen na aanmelding",
-    "bron": "https://www.thubble.nl/behandelservice"
+    "bron": "https://www.thubble.nl/behandelservice",
+    "doelgroep": null
   },
   {
     "row_id": "306",
@@ -6267,7 +6573,8 @@
     "aanmeld_weken": "10",
     "behandel_weken": null,
     "wachttijd": "Rond de 10 weken (vermelding juni 2026); geen wachttijd tussen intake en start behandeling",
-    "bron": "https://www.mindsession.nl/"
+    "bron": "https://www.mindsession.nl/",
+    "doelgroep": null
   },
   {
     "row_id": "307",
@@ -6288,7 +6595,8 @@
     "aanmeld_weken": "3-12",
     "behandel_weken": null,
     "wachttijd": "Wachttijden per locatie: aanmeldwachttijd 3-12 weken, behandelwachttijd 7-11 weken (geen locatie in regio 's-Hertogenbosch). Online via Tacton: 6 weken.",
-    "bron": "https://www.tactus.nl/behandeltraject/wachttijden/"
+    "bron": "https://www.tactus.nl/behandeltraject/wachttijden/",
+    "doelgroep": null
   },
   {
     "row_id": "308",
@@ -6308,7 +6616,8 @@
     "aanmeld_weken": "2",
     "behandel_weken": null,
     "wachttijd": "Wachttijden (bijgewerkt 17 juni 2026):\n\n• Overige verzekeraars: 0-4 weken\n• ASR (en labels): 4-5 maanden\n• CZ (en labels): aanmeldstop\n• VGZ (en labels): aanmeldstop\n• Menzis (en labels): wachttijd langer dan 6 maanden\n• Zilveren Kruis (en labels): aanmeldstop\n\nOnline praktijk (Rotterdam), geen fysieke vestiging nabij Den Bosch.",
-    "bron": "https://sol-psychotherapie.nl/wachttijden/"
+    "bron": "https://sol-psychotherapie.nl/wachttijden/",
+    "doelgroep": null
   },
   {
     "row_id": "309",
@@ -6328,7 +6637,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Geen wachtlijst(en) - expliciet meermaals vermeld op homepage (titel en tekst: 'Psycholoog zonder wachtlijst', 'Geen wachtlijsten')",
-    "bron": "https://www.caredate.nl/"
+    "bron": "https://www.caredate.nl/",
+    "doelgroep": null
   },
   {
     "row_id": "310",
@@ -6348,7 +6658,8 @@
     "aanmeld_weken": "3",
     "behandel_weken": null,
     "wachttijd": "Geen wachtlijst geclaimd; intake doorgaans binnen 1-3 weken, varieert per locatie en zorgverzekeraar (homepage zelf was JS-rendered/leeg, info via zoekresultaten van eigen site bevestigd)",
-    "bron": "https://psycholoognederland.org/"
+    "bron": "https://psycholoognederland.org/",
+    "doelgroep": null
   },
   {
     "row_id": "311",
@@ -6368,7 +6679,8 @@
     "aanmeld_weken": "1",
     "behandel_weken": null,
     "wachttijd": "Zonder wachtlijst; eerste contact binnen 1-2 dagen, intake binnen 3-4 dagen (homepage zelf was JS-rendered/leeg, info bevestigd via subpagina '/zonder-wachtlijst/' op eigen site)",
-    "bron": "https://www.de-online-psycholoog.nl/zonder-wachtlijst/"
+    "bron": "https://www.de-online-psycholoog.nl/zonder-wachtlijst/",
+    "doelgroep": null
   },
   {
     "row_id": "312",
@@ -6388,7 +6700,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Geen wachtlijst - expliciet vermeld op meerdere locatiepagina's (Amsterdam, Utrecht, Nijmegen, Heerlen); homepage zelf toont alleen verouderde contentpagina uit 2018 zonder wachttijdvermelding",
-    "bron": "https://www.ohmymood.com/en/amsterdam/"
+    "bron": "https://www.ohmymood.com/en/amsterdam/",
+    "doelgroep": null
   },
   {
     "row_id": "313",
@@ -6410,7 +6723,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Claimt geen wachtlijsten (homepage marketing)",
-    "bron": "https://www.tibi.care/nl"
+    "bron": "https://www.tibi.care/nl",
+    "doelgroep": null
   },
   {
     "row_id": "314",
@@ -6431,7 +6745,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Niet van toepassing - dit is een platform met online zelfstudie-cursussen (geen GGZ-behandeling/diagnostiek met intake of wachtlijst); cursussen zijn direct te volgen na aankoop",
-    "bron": "https://www.authentiek-online.nl/cursussen"
+    "bron": "https://www.authentiek-online.nl/cursussen",
+    "doelgroep": null
   },
   {
     "row_id": "315",
@@ -6451,7 +6766,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Tijdelijke aanmeldstop vanwege vele aanmeldingen; verwachte heropening 1 oktober 2026",
-    "bron": "https://www.nostraforza.com/contact"
+    "bron": "https://www.nostraforza.com/contact",
+    "doelgroep": null
   },
   {
     "row_id": "316",
@@ -6472,7 +6788,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Mind-body coaching. Geen GGZ basisverzekering. Wachttijdconcept niet van toepassing.",
-    "bron": ""
+    "bron": "",
+    "doelgroep": null
   },
   {
     "row_id": "317",
@@ -6493,7 +6810,8 @@
     "aanmeld_weken": "19",
     "behandel_weken": null,
     "wachttijd": "Geschatte wachttijd tot intakegesprek: 3 tot 6 maanden (circa 13-26 weken)",
-    "bron": "https://hdi.nl/wachttijden-per-locatie/"
+    "bron": "https://hdi.nl/wachttijden-per-locatie/",
+    "doelgroep": null
   },
   {
     "row_id": "318",
@@ -6514,7 +6832,8 @@
     "aanmeld_weken": "16",
     "behandel_weken": null,
     "wachttijd": "Wachttijd tot kennismakingsgesprek: circa 4 maanden (16 weken). Na kennismakingsgesprek: terugkoppeling na 2 weken, daarna direct start behandeling. Basis + SGGZ Zaltbommel. (Bijgewerkt: juni 2026)",
-    "bron": "https://www.levuraggz.nl/wachttijden"
+    "bron": "https://www.levuraggz.nl/wachttijden",
+    "doelgroep": null
   },
   {
     "row_id": "319",
@@ -6534,7 +6853,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Onbekend",
-    "bron": ""
+    "bron": "",
+    "doelgroep": null
   },
   {
     "row_id": "320",
@@ -6554,7 +6874,8 @@
     "aanmeld_weken": "8",
     "behandel_weken": null,
     "wachttijd": "Wachttijd GGZ/psychologische behandeling: 1 tot 3 maanden vanaf complete aanmelding tot start intakefase",
-    "bron": "https://www.burojij.nl/wachttijden/"
+    "bron": "https://www.burojij.nl/wachttijden/",
+    "doelgroep": null
   },
   {
     "row_id": "321",
@@ -6574,7 +6895,8 @@
     "aanmeld_weken": "15",
     "behandel_weken": "6-12",
     "wachttijd": "SGGZ: minimaal 15 maanden wachttijd; GBGGZ: Amersfoort 10-12 weken, Linschoten/Nieuwegein 6-8 weken, Utrecht 16 weken. Bijgewerkt 26-05-2026",
-    "bron": "https://psymens.nl/over-ons/wachttijd/"
+    "bron": "https://psymens.nl/over-ons/wachttijd/",
+    "doelgroep": null
   },
   {
     "row_id": "322",
@@ -6595,7 +6917,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Psychosociaal therapeut bij kanker (aanvullende verzekering, geen basisverzekering). Wachttijdconcept niet van toepassing.",
-    "bron": ""
+    "bron": "",
+    "doelgroep": null
   },
   {
     "row_id": "323",
@@ -6615,7 +6938,8 @@
     "aanmeld_weken": null,
     "behandel_weken": null,
     "wachttijd": "Locatie Den Bosch: intakegesprek ±60 dagen (~9 wk), start behandeling ±3 weken (bijgewerkt 24-06-2026)",
-    "bron": "https://care4sureggz.nl/wachttijden/"
+    "bron": "https://care4sureggz.nl/wachttijden/",
+    "doelgroep": null
   },
   {
     "row_id": "324",
@@ -6635,6 +6959,7 @@
     "aanmeld_weken": "4",
     "behandel_weken": null,
     "wachttijd": "Wachttijd intake: 4 weken (bijgewerkt 26-05-2026)",
-    "bron": "https://www.deadhdspecialist.nl/about"
+    "bron": "https://www.deadhdspecialist.nl/about",
+    "doelgroep": null
   }
 ]

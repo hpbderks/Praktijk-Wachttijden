@@ -120,6 +120,7 @@ h1{font-size:22px;font-weight:700;margin-bottom:2px;letter-spacing:-.3px}
 .card-meta{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin-top:5px}
 .chip-intensity{display:inline-block;background:#fff3e8;color:#8b4513;font-size:10.5px;font-weight:700;padding:2px 7px;border-radius:4px;letter-spacing:.3px}
 .chip-cat{display:inline-block;background:#f0f4ff;color:#3d5a99;font-size:10px;padding:2px 7px;border-radius:4px}
+.chip-doel{display:inline-block;background:#f0fdf4;color:#166534;font-size:10px;padding:2px 7px;border-radius:4px;font-weight:600}
 .tel{font-size:11px;color:#9e7a6a}
 .card-right{display:flex;flex-direction:column;align-items:flex-end;gap:4px}
 .card-wt{text-align:right;display:flex;flex-direction:column;gap:4px;align-items:flex-end}
@@ -189,6 +190,13 @@ h1{font-size:22px;font-weight:700;margin-bottom:2px;letter-spacing:-.3px}
     <select id="floc" onchange="render()">
       <option value="">Alle locaties</option>
 """ + city_opts + """
+    </select>
+    <select id="fdoel" onchange="render()">
+      <option value="">Alle doelgroepen</option>
+      <option value="jeugd">Jeugd</option>
+      <option value="volwassenen">Volwassenen</option>
+      <option value="ouderen">Ouderen</option>
+      <option value="alle leeftijden">Alle leeftijden</option>
     </select>
     <button class="filters-reset" onclick="resetFilters()">Wis filters</button>
     <span id="count"></span>
@@ -270,6 +278,7 @@ function render(){
     if(fcat&&!(r.cats||[]).includes(fcat))return false;
     if(fi&&String(r.level)!==fi)return false;
     if(floc&&(r.locatie_norm||r.locatie)!==floc)return false;
+    if(fdoel&&r.doelgroep!==fdoel)return false;
     if(!matchesSc(r))return false;return true;
   });
   rows.sort(function(a,b){return rank(a)-rank(b);});
@@ -290,7 +299,7 @@ function render(){
       if(r.bron)detailHtml+='<div class="detail-bron">Bron: <a href="'+esc(r.bron)+'" target="_blank">'+esc(r.bron)+'</a></div>';
       detailHtml+='</div>';
     }
-    return '<div class="card" onclick="toggleCard(this)"><div class="card-main"><div class="dot dot-'+c+'"></div><div class="card-body"><div class="card-top">'+naamHtml+'<span class="card-loc">'+esc(r.locatie_norm||r.locatie||'')+'</span></div><div class="card-meta">'+(intLabel?'<span class="chip-intensity">'+intLabel+'</span>':'')+cats+(r.telefoon?'<span class="tel">'+esc(r.telefoon)+'</span>':'')+'</div></div><div class="card-right"><div class="card-wt">'+intakeHtml+bHtml+'</div>'+(hasDetail?'<div class="chevron">&#9660;</div>':'')+'</div></div>'+detailHtml+'</div>';
+    return '<div class="card" onclick="toggleCard(this)"><div class="card-main"><div class="dot dot-'+c+'"></div><div class="card-body"><div class="card-top">'+naamHtml+'<span class="card-loc">'+esc(r.locatie_norm||r.locatie||'')+'</span>'+(r.telefoon?'<span class="card-loc"> &middot; '+esc(r.telefoon)+'</span>':'')+'</div><div class="card-meta">'+(intLabel?'<span class="chip-intensity">'+intLabel+'</span>':'')+cats+(r.doelgroep?'<span class="chip-doel">'+esc(r.doelgroep)+'</span>':'')+'</div></div><div class="card-right"><div class="card-wt">'+intakeHtml+bHtml+'</div>'+(hasDetail?'<div class="chevron">&#9660;</div>':'')+'</div></div>'+detailHtml+'</div>';
   }).join('');
 }
 function toggleCard(card){card.classList.toggle('open');}
